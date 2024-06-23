@@ -1,5 +1,7 @@
 package fr.reivon.altbuilder;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -14,9 +16,10 @@ public class AltBuilderApplication {
 	 * Le nouveau code : Quarkus + postgres + kafka
 	 * Et on code selon les principes d'une archi hexagonale
 	 * Un peu d'angular sur un outil de supervision
-	 *
-	 * @param args
 	 */
+
+	private static final Logger log = LoggerFactory.getLogger(AltBuilderApplication.class);
+
 
 	public static void main(String[] args) {
 		SpringApplication.run(AltBuilderApplication.class, args);
