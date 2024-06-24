@@ -1,0 +1,35 @@
+
+### get the second deck
+GET http://localhost:8080/deck/2
+Accept: application/json
+
+### Save a new deck
+POST http://localhost:8080/deck
+Content-Type: application/json
+
+{
+  "name": "Mon 2eme deck",
+  "secret": true,
+  "description": "Créé par HTTP POST !",
+  "author": {
+    "id": 1
+  },
+  "cards": [
+    {
+      "pk": {
+        "card": {
+          "id": 1
+        }
+      },
+      "nbCard": 1
+    },
+    {
+      "pk": {
+        "card": {
+          "id": 2
+        }
+      },
+      "nbCard": 3
+    }
+  ]
+}

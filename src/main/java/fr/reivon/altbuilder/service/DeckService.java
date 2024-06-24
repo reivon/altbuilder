@@ -18,4 +18,16 @@ public class DeckService {
     public List<Deck> getAll() {
         return deckRepository.getAll();
     }
+
+    public Deck getById(long deckId) {
+        return deckRepository.findById(deckId).orElse(null);
+    }
+
+    public Deck save(Deck deck) {
+        return deckRepository.save(deck);
+    }
+
+    public void delete(Long deckid) {
+        deckRepository.deleteById(deckid);
+    }
 }

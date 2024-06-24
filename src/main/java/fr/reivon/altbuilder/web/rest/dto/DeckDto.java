@@ -20,5 +20,6 @@ public class DeckDto {
     String description;
     CustomerDto author;
 
+    @Builder.Default
     List<DeckCardDto> cards = new ArrayList<>();
 }

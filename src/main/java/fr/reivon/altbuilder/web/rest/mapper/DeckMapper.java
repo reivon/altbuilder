@@ -16,4 +16,5 @@ public interface DeckMapper {
     DeckDto deckToDeckDto(Deck deck);
     List<DeckDto> deckToDeckDto(List<Deck> decks);
 
+    Deck deckDtoToDeck(DeckDto deckDto);
 }

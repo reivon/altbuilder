@@ -7,6 +7,7 @@ import fr.reivon.altbuilder.domain.Rarity;
 import lombok.*;
 import lombok.extern.jackson.Jacksonized;
 
+import java.util.ArrayList;
 import java.util.List;
 
 @Builder
@@ -22,8 +23,10 @@ public class CardDto {
     Faction faction;
     Rarity rarity;
     CardType cardType;
-    List<CardSubTypeDto> subTypes;
-    List<EditionDto> editions;
+    @Builder.Default
+    List<CardSubTypeDto> subTypes = new ArrayList<>();
+    @Builder.Default
+    List<EditionDto> editions = new ArrayList<>();
     Integer costHand;
     Integer costReserve;
     String nameVo;

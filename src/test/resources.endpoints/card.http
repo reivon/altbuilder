@@ -1,0 +1,95 @@
+
+###
+GET http://localhost:8080/card/test
+Accept: application/json
+
+###
+GET http://localhost:8080/card/testDeck
+Accept: application/json
+
+### Save a new deck
+POST http://localhost:8080/deck
+Content-Type: application/json
+
+{
+  "id": 1,
+  "name": "Mon 1er deck",
+  "secret": false,
+  "description": "ceci est une description",
+  "author": {
+    "id": 1,
+    "nickname": "reivon",
+    "password": "toto",
+    "email": "mario@luigi.com"
+  },
+  "cards": [
+    {
+      "pk": {
+        "card": {
+          "id": 1,
+          "alteredId": "blabla",
+          "faction": "AXIOM",
+          "rarity": "COMMON",
+          "cardType": "HERO",
+          "subTypes": [],
+          "editions": [
+            {
+              "id": 1,
+              "nameVo": null,
+              "nameVf": "BTG"
+            }
+          ],
+          "costHand": null,
+          "costReserve": null,
+          "nameVo": null,
+          "nameVf": "Sierra",
+          "textVo": null,
+          "textVf": null,
+          "flavorVo": null,
+          "flavorVf": null,
+          "forestPower": null,
+          "mountainPower": null,
+          "waterPower": null
+        }
+      },
+      "nbCard": 1
+    },
+    {
+      "pk": {
+        "card": {
+          "id": 2,
+          "alteredId": "ALT_CORE_B_AX_16_C",
+          "faction": "AXIOM",
+          "rarity": "COMMON",
+          "cardType": "CHARACTER",
+          "subTypes": [
+            {
+              "id": 1,
+              "nameVo": null,
+              "nameVf": "Ingénieur"
+            }
+          ],
+          "editions": [
+            {
+              "id": 1,
+              "nameVo": null,
+              "nameVf": "BTG"
+            }
+          ],
+          "costHand": 3,
+          "costReserve": 3,
+          "nameVo": null,
+          "nameVf": "Armurière de la Fonderie",
+          "textVo": null,
+          "textVf": "{R} Créez un jeton Robot [2/2/2 Scarabot] dans l'Expédition ciblée.",
+          "flavorVo": null,
+          "flavorVf": "Aucun Scarabot ne survivrait dans le Tumulte sans blindage.",
+          "forestPower": 2,
+          "mountainPower": 2,
+          "waterPower": 2
+        }
+      },
+      "nbCard": 2
+    }
+  ]
+}

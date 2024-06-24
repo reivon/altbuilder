@@ -12,9 +12,6 @@ import lombok.extern.jackson.Jacksonized;
 @Jacksonized
 public class DeckCardIdDto {
 
-    @JsonIgnoreProperties
-    DeckDto deck;
-
     CardDto card;
 
 }
