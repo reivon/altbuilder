@@ -2,19 +2,26 @@ package fr.reivon.altbuilder.web.rest.mapper;
 
 import fr.reivon.altbuilder.domain.deck.Deck;
 import fr.reivon.altbuilder.web.rest.dto.DeckDto;
+import org.mapstruct.AfterMapping;
 import org.mapstruct.Mapper;
+import org.mapstruct.MappingTarget;
 import org.mapstruct.factory.Mappers;
 
 import java.util.List;
 
 
 @Mapper(componentModel = "spring")
-public interface DeckMapper {
+public abstract class DeckMapper {
 
-    DeckMapper INSTANCE = Mappers.getMapper( DeckMapper.class );
+    public abstract DeckDto deckToDeckDto(Deck deck);
+    public abstract List<DeckDto> deckToDeckDto(List<Deck> decks);
 
-    DeckDto deckToDeckDto(Deck deck);
-    List<DeckDto> deckToDeckDto(List<Deck> decks);
+    public abstract Deck deckDtoToDeck(DeckDto deckDto);
 
-    Deck deckDtoToDeck(DeckDto deckDto);
+    @AfterMapping
+    void deckDtoToDeck(@MappingTarget Deck deck, DeckDto deckDto) {
+        deck.getCards().forEach(it -> it.getPk().setDeck(deck));
+    }
+
+
 }

@@ -11,25 +11,22 @@ import java.util.List;
 @Setter
 @Getter
 @Entity
-public class Customer {
+public class Role {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
-    private String nickname;
-    private String password;
-    private String email;
-    private boolean enabled;
-    private boolean tokenExpired;
+    private String name;
+    @ManyToMany(mappedBy = "roles")
+    private List<Customer> customers;
 
     @ManyToMany
     @JoinTable(
-            name = "users_roles",
+            name = "roles_privileges",
             joinColumns = @JoinColumn(
-                    name = "user_id", referencedColumnName = "id"),
+                    name = "role_id", referencedColumnName = "id"),
             inverseJoinColumns = @JoinColumn(
-                    name = "role_id", referencedColumnName = "id"))
-    private List<Role> roles;
-
+                    name = "privilege_id", referencedColumnName = "id"))
+    private List<Privilege> privileges;
 }

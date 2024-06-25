@@ -23,7 +23,7 @@ public class Deck {
     Boolean secret;
     String description;
 
-    @ManyToOne(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
+    @ManyToOne(cascade = CascadeType.REFRESH, fetch = FetchType.EAGER)
     Customer author;
 
     @OneToMany(fetch = FetchType.LAZY, mappedBy = "pk.deck", cascade = CascadeType.ALL, orphanRemoval = true)

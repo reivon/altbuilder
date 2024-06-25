@@ -9,7 +9,7 @@ Just for train.
 
 - Create a deck
 - Create a postman collection
-- Create the user system
+- Create the customer system
 - Add some unit test
 - Manage a hand draw
 - Develop filter to search card - part 1

@@ -1,10 +1,14 @@
 
 ### get the second deck
-GET http://localhost:8080/deck/2
+GET http://localhost:8080/v1/deck/2
+Accept: application/json
+
+### get a deck which doesn't exist (404)
+GET http://localhost:8080/v1/deck/999999999999
 Accept: application/json
 
 ### Save a new deck
-POST http://localhost:8080/deck
+POST http://localhost:8080/v1/deck
 Content-Type: application/json
 
 {
@@ -30,6 +34,38 @@ Content-Type: application/json
         }
       },
       "nbCard": 3
+    }
+  ]
+}
+
+### update the new deck (id known)
+POST http://localhost:8080/v1/deck
+Content-Type: application/json
+
+{
+  "id": 2,
+  "name": "Mon 2eme deck",
+  "secret": true,
+  "description": "Créé par HTTP POST !",
+  "author": {
+    "id": 1
+  },
+  "cards": [
+    {
+      "pk": {
+        "card": {
+          "id": 1
+        }
+      },
+      "nbCard": 1
+    },
+    {
+      "pk": {
+        "card": {
+          "id": 2
+        }
+      },
+      "nbCard": 1
     }
   ]
 }

@@ -17,10 +17,10 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
-@RequestMapping("card")
-public class CardResource {
+@RequestMapping("/v1/card")
+public class CardResourceV1 {
 
-    private static final Logger log = LoggerFactory.getLogger(CardResource.class);
+    private static final Logger log = LoggerFactory.getLogger(CardResourceV1.class);
 
     private final CardService cardService;
     private final CardMapper cardMapper;
@@ -29,7 +29,7 @@ public class CardResource {
     private final DeckMapper deckMapper;
     private final DeckService deckService;
 
-    public CardResource(CardService cardService, CardMapper cardMapper, TestServiceToDelete testServiceToDelete, DeckMapper deckMapper, DeckService deckService) {
+    public CardResourceV1(CardService cardService, CardMapper cardMapper, TestServiceToDelete testServiceToDelete, DeckMapper deckMapper, DeckService deckService) {
         this.cardService = cardService;
         this.cardMapper = cardMapper;
         this.testServiceToDelete = testServiceToDelete;
@@ -37,14 +37,14 @@ public class CardResource {
         this.deckService = deckService;
     }
 
-    @GetMapping("test")
+    @GetMapping("/test")
     @ResponseBody
     public List<CardDto> saveTestDeck() {
         testServiceToDelete.initDB();
         return cardMapper.cardToCardDto(cardService.getAll());
     }
 
-    @GetMapping("testDeck")
+    @GetMapping("/testDeck")
     @ResponseBody
     public List<DeckDto> getTestDeck() {
         return deckMapper.deckToDeckDto(deckService.getAll());
