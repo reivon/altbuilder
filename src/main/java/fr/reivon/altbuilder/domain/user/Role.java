@@ -1,5 +1,6 @@
 package fr.reivon.altbuilder.domain.user;
 
+import fr.reivon.altbuilder.domain.UserRole;
 import jakarta.persistence.*;
 import lombok.*;
 
@@ -17,9 +18,11 @@ public class Role {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
-    private String name;
-    @ManyToMany(mappedBy = "roles")
-    private List<Customer> customers;
+    @Enumerated(EnumType.STRING)
+    private UserRole name;
+
+    @OneToOne(mappedBy = "role")
+    private Customer customers;
 
     @ManyToMany
     @JoinTable(

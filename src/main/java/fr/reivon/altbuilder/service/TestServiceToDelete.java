@@ -12,7 +12,7 @@ import fr.reivon.altbuilder.domain.deck.DeckCardId;
 import fr.reivon.altbuilder.domain.user.Customer;
 import fr.reivon.altbuilder.repository.CardRepository;
 import fr.reivon.altbuilder.repository.DeckRepository;
-import fr.reivon.altbuilder.repository.UserRepository;
+import fr.reivon.altbuilder.repository.CustomerRepository;
 import jakarta.transaction.Transactional;
 import org.springframework.stereotype.Service;
 
@@ -23,12 +23,12 @@ public class TestServiceToDelete {
 
     DeckRepository deckRepository;
     CardRepository cardRepository;
-    UserRepository userRepository;
+    CustomerRepository customerRepository;
 
-    public TestServiceToDelete(DeckRepository deckRepository, CardRepository cardRepository, UserRepository userRepository) {
+    public TestServiceToDelete(DeckRepository deckRepository, CardRepository cardRepository, CustomerRepository customerRepository) {
         this.deckRepository = deckRepository;
         this.cardRepository = cardRepository;
-        this.userRepository = userRepository;
+        this.customerRepository = customerRepository;
     }
 
     @Transactional
@@ -71,7 +71,7 @@ public class TestServiceToDelete {
                 .password("toto")
                 .build();
 
-        mario = userRepository.save(mario);
+        mario = customerRepository.save(mario);
 
         List<Card> cards = cardRepository.getAll();
 

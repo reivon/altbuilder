@@ -1,0 +1,21 @@
+
+### Registrer a user "reivon"
+POST http://localhost:8080/v1/customer/registration
+Content-Type: application/json
+
+{
+  "nickname": "reivon",
+  "password": "toto",
+  "email": "reivon@gmail.com"
+}
+
+### Login the user "reivon@gmail.com"
+POST http://localhost:8080/v1/customer/login
+Content-Type: application/json
+
+{
+  "username": "reivon@gmail.com",
+  "password": "toto"
+}
+
+> {% client.global.set("auth_token", response.body.bearer); %}

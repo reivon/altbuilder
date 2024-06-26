@@ -13,7 +13,6 @@ public class CustomerDto {
 
     Long id;
     String nickname;
-    String password;
     String email;
 
 }

@@ -1,6 +1,7 @@
 package fr.reivon.altbuilder.web.rest;
 
 import fr.reivon.altbuilder.domain.deck.Deck;
+import fr.reivon.altbuilder.domain.user.Customer;
 import fr.reivon.altbuilder.service.DeckService;
 import fr.reivon.altbuilder.web.rest.dto.DeckDto;
 import fr.reivon.altbuilder.web.rest.mapper.DeckMapper;
@@ -8,6 +9,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.web.bind.annotation.*;
 
 /**
@@ -47,7 +49,13 @@ public class DeckResourceV1 {
     @PostMapping()
     public DeckDto saveDeck(@RequestBody DeckDto deckDto) {
         Deck deckToSave = deckMapper.deckDtoToDeck(deckDto);
+
+        // Get the user who save his deck
+        Customer customer = (Customer)SecurityContextHolder.getContext().getAuthentication().getPrincipal();
+        deckToSave.setAuthor(customer);
+
         Deck deckSaved = deckService.save(deckToSave);
+
         return deckMapper.deckToDeckDto(deckSaved);
     }
 
