@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: AlteredBuilder
+
+project:
+  test: titi
+  api:
+    url: https://api.altered.gg/cards

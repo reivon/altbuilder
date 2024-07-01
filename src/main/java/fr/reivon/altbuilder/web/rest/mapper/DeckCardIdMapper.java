@@ -1,7 +1,7 @@
 package fr.reivon.altbuilder.web.rest.mapper;
 
 import fr.reivon.altbuilder.domain.deck.DeckCardId;
-import fr.reivon.altbuilder.web.rest.dto.DeckCardIdDto;
+import fr.reivon.altbuilder.web.rest.dto.deck.DeckCardIdDto;
 import org.mapstruct.Mapper;
 import org.mapstruct.factory.Mappers;
 

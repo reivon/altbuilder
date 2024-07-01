@@ -1,0 +1,2633 @@
+{
+  "@context": "/contexts/Card",
+  "@id": "/cards",
+  "@type": "hydra:Collection",
+  "hydra:totalItems": 446,
+  "hydra:member": [
+    {
+      "@id": "/cards/ALT_CORE_B_AX_01_C",
+      "@type": "Card",
+      "reference": "ALT_CORE_B_AX_01_C",
+      "cardType": {
+        "@id": "/card_types/01GE7AC9WGQTNRP28T63FH8TZD",
+        "@type": "CardType",
+        "reference": "HERO",
+        "id": "01GE7AC9WGQTNRP28T63FH8TZD",
+        "name": "Hero"
+      },
+      "cardSubTypes": [],
+      "rarity": {
+        "@id": "/rarities/COMMON",
+        "@type": "Rarity",
+        "reference": "COMMON",
+        "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+        "name": "Common"
+      },
+      "cardProduct": {
+        "@id": "/card_products/01H1NW5YEN8B72T6CXPYDXV5CZ",
+        "@type": "CardProduct",
+        "reference": "B",
+        "name": "Booster"
+      },
+      "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_01/JPG/en_US/e9cf4439f25391d9fc21300cce1bbe44.jpg",
+      "latestAddition": null,
+      "inMyCollection": 0,
+      "inMyWantlist": false,
+      "assets": {
+        "WEB": [
+          "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_01/ALT_CORE_B_AX_01_C_WEB.jpg"
+        ],
+        "HERO_THUMB": [
+          "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_01/ALT_CORE_B_AX_01_C_HERO_THUMB.jpg"
+        ]
+      },
+      "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_B_AX_01_C",
+      "id": "01HKAFJNH8NN6Q06P4R44WNCSM",
+      "mainFaction": {
+        "@id": "/factions/AX",
+        "@type": "Faction",
+        "reference": "AX",
+        "color": "#8c432a",
+        "id": "01GE7AC9XBG707G19F03A95TH1",
+        "name": "Axiom"
+      },
+      "name": "Sierra & Oddball",
+      "elements": {
+        "PERMANENT": "2",
+        "RESERVE": "2",
+        "MAIN_EFFECT": "When you play a Permanent with Hand Cost {3} or more — You may exhaust me ({T}) to create a [Brassbug 2/2/2] Robot token in target Expedition."
+      },
+      "collectorNumberFormatted": "BTG-001-H-EN"
+    },
+    {
+      "@id": "/cards/ALT_CORE_B_AX_02_C",
+      "@type": "Card",
+      "reference": "ALT_CORE_B_AX_02_C",
+      "cardType": {
+        "@id": "/card_types/01GE7AC9WGQTNRP28T63FH8TZD",
+        "@type": "CardType",
+        "reference": "HERO",
+        "id": "01GE7AC9WGQTNRP28T63FH8TZD",
+        "name": "Hero"
+      },
+      "cardSubTypes": [],
+      "rarity": {
+        "@id": "/rarities/COMMON",
+        "@type": "Rarity",
+        "reference": "COMMON",
+        "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+        "name": "Common"
+      },
+      "cardProduct": {
+        "@id": "/card_products/01H1NW5YEN8B72T6CXPYDXV5CZ",
+        "@type": "CardProduct",
+        "reference": "B",
+        "name": "Booster"
+      },
+      "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_02/JPG/en_US/e8d562c8402df1d8ba79d70139706d11.jpg",
+      "latestAddition": null,
+      "inMyCollection": 0,
+      "inMyWantlist": false,
+      "assets": {
+        "WEB": [
+          "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_02/ALT_CORE_B_AX_02_C_WEB.jpg"
+        ],
+        "HERO_THUMB": [
+          "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_02/ALT_CORE_B_AX_02_C_HERO_THUMB.jpg"
+        ]
+      },
+      "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_B_AX_02_C",
+      "id": "01HKAFJNHAGP5G093V0GPX6XE3",
+      "mainFaction": {
+        "@id": "/factions/AX",
+        "@type": "Faction",
+        "reference": "AX",
+        "color": "#8c432a",
+        "id": "01GE7AC9XBG707G19F03A95TH1",
+        "name": "Axiom"
+      },
+      "name": "Treyst & Rossum",
+      "elements": {
+        "PERMANENT": "2",
+        "RESERVE": "2",
+        "MAIN_EFFECT": "When a card leaves your Reserve during the Afternoon, if I have less than five Scrap counters — I gain a Scrap counter.  If I have five or more Scrap counters, I gain \"{T} : Draw a card, then put a card from your hand in Reserve.\""
+      },
+      "collectorNumberFormatted": "BTG-003-H-EN"
+    },
+    {
+      "@id": "/cards/ALT_CORE_B_AX_03_C",
+      "@type": "Card",
+      "reference": "ALT_CORE_B_AX_03_C",
+      "cardType": {
+        "@id": "/card_types/01GE7AC9WGQTNRP28T63FH8TZD",
+        "@type": "CardType",
+        "reference": "HERO",
+        "id": "01GE7AC9WGQTNRP28T63FH8TZD",
+        "name": "Hero"
+      },
+      "cardSubTypes": [],
+      "rarity": {
+        "@id": "/rarities/COMMON",
+        "@type": "Rarity",
+        "reference": "COMMON",
+        "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+        "name": "Common"
+      },
+      "cardProduct": {
+        "@id": "/card_products/01H1NW5YEN8B72T6CXPYDXV5CZ",
+        "@type": "CardProduct",
+        "reference": "B",
+        "name": "Booster"
+      },
+      "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_03/JPG/en_US/05ba21398ad2dce1eb30beccc957a1c2.jpg",
+      "latestAddition": null,
+      "inMyCollection": 0,
+      "inMyWantlist": false,
+      "assets": {
+        "WEB": [
+          "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_03/ALT_CORE_B_AX_03_C_WEB.jpg"
+        ],
+        "HERO_THUMB": [
+          "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_03/ALT_CORE_B_AX_03_C_HERO_THUMB.jpg"
+        ]
+      },
+      "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_B_AX_03_C",
+      "id": "01HKAFJNHBQ56YXGF3BESZT83G",
+      "mainFaction": {
+        "@id": "/factions/AX",
+        "@type": "Faction",
+        "reference": "AX",
+        "color": "#8c432a",
+        "id": "01GE7AC9XBG707G19F03A95TH1",
+        "name": "Axiom"
+      },
+      "name": "Subhash & Marmo",
+      "elements": {
+        "PERMANENT": "2",
+        "RESERVE": "2",
+        "MAIN_EFFECT": "At Noon — You may pay {1} and put a card from your hand in Reserve to create a [Brassbug 2/2/2] Robot token in target Expedition."
+      },
+      "collectorNumberFormatted": "BTG-002-H-EN"
+    },
+    {
+      "@id": "/cards/ALT_CORE_B_AX_04_C",
+      "@type": "Card",
+      "reference": "ALT_CORE_B_AX_04_C",
+      "cardType": {
+        "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+        "@type": "CardType",
+        "reference": "CHARACTER",
+        "id": "01H19NWA92A4ERAC4ATMSZNASS",
+        "name": "Character"
+      },
+      "cardSubTypes": [
+        {
+          "@type": "CardSubType",
+          "@id": "/.well-known/genid/838accea2c7e7fd2e369",
+          "reference": "ELEMENTAL",
+          "id": "01HKAGPA0G5NVDVVXS31BBX2AS",
+          "name": "Elemental"
+        }
+      ],
+      "rarity": {
+        "@id": "/rarities/COMMON",
+        "@type": "Rarity",
+        "reference": "COMMON",
+        "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+        "name": "Common"
+      },
+      "cardProduct": {
+        "@id": "/card_products/01H1NW5YEN8B72T6CXPYDXV5CZ",
+        "@type": "CardProduct",
+        "reference": "B",
+        "name": "Booster"
+      },
+      "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_04/JPG/en_US/fca50447c3db9ed73203afbacdd8cabf.jpg",
+      "latestAddition": null,
+      "inMyCollection": 0,
+      "inMyWantlist": false,
+      "assets": {
+        "WEB": [
+          "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_04/ALT_CORE_B_AX_04_C_WEB.jpg",
+          "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_04/ALT_CORE_B_AX_04_R_WEB.jpg",
+          "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_04/ALT_CORE_B_AX_04_U_WEB.jpg"
+        ]
+      },
+      "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_B_AX_04_C",
+      "id": "01HKAFJNHECG82PAA2SXSTBKQ1",
+      "mainFaction": {
+        "@id": "/factions/AX",
+        "@type": "Faction",
+        "reference": "AX",
+        "color": "#8c432a",
+        "id": "01GE7AC9XBG707G19F03A95TH1",
+        "name": "Axiom"
+      },
+      "name": "Kelon Elemental",
+      "elements": {
+        "MAIN_COST": "2",
+        "RECALL_COST": "2",
+        "OCEAN_POWER": "3",
+        "MOUNTAIN_POWER": "3",
+        "FOREST_POWER": "1",
+        "MAIN_EFFECT": "{H} Put a card from your hand in Reserve."
+      },
+      "collectorNumberFormatted": "BTG-010-C-EN"
+    },
+    {
+      "@id": "/cards/ALT_CORE_B_AX_04_R1",
+      "@type": "Card",
+      "reference": "ALT_CORE_B_AX_04_R1",
+      "cardType": {
+        "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+        "@type": "CardType",
+        "reference": "CHARACTER",
+        "id": "01H19NWA92A4ERAC4ATMSZNASS",
+        "name": "Character"
+      },
+      "cardSubTypes": [
+        {
+          "@type": "CardSubType",
+          "@id": "/.well-known/genid/838accea2c7e7fd2e369",
+          "reference": "ELEMENTAL",
+          "id": "01HKAGPA0G5NVDVVXS31BBX2AS",
+          "name": "Elemental"
+        }
+      ],
+      "rarity": {
+        "@id": "/rarities/RARE",
+        "@type": "Rarity",
+        "reference": "RARE",
+        "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+        "name": "Rare"
+      },
+      "cardProduct": {
+        "@id": "/card_products/01H1NW5YEN8B72T6CXPYDXV5CZ",
+        "@type": "CardProduct",
+        "reference": "B",
+        "name": "Booster"
+      },
+      "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_04/JPG/en_US/4187ecad6c030eae62446f153489f11e.jpg",
+      "latestAddition": null,
+      "inMyCollection": 0,
+      "inMyWantlist": false,
+      "assets": {
+        "WEB": [
+          "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_04/ALT_CORE_B_AX_04_C_WEB.jpg",
+          "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_04/ALT_CORE_B_AX_04_R_WEB.jpg",
+          "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_04/ALT_CORE_B_AX_04_U_WEB.jpg"
+        ]
+      },
+      "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_B_AX_04_R1",
+      "id": "01HKAFJNHG4PN8JTMHCFFRCBXE",
+      "mainFaction": {
+        "@id": "/factions/AX",
+        "@type": "Faction",
+        "reference": "AX",
+        "color": "#8c432a",
+        "id": "01GE7AC9XBG707G19F03A95TH1",
+        "name": "Axiom"
+      },
+      "name": "Kelon Elemental",
+      "elements": {
+        "MAIN_COST": "2",
+        "RECALL_COST": "2",
+        "OCEAN_POWER": "3",
+        "MOUNTAIN_POWER": "3",
+        "FOREST_POWER": "1",
+        "MAIN_EFFECT": "{H} You may put a card from your hand in Reserve."
+      },
+      "collectorNumberFormatted": "BTG-010-R-EN"
+    },
+    {
+      "@id": "/cards/ALT_CORE_B_AX_04_R2",
+      "@type": "Card",
+      "reference": "ALT_CORE_B_AX_04_R2",
+      "cardType": {
+        "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+        "@type": "CardType",
+        "reference": "CHARACTER",
+        "id": "01H19NWA92A4ERAC4ATMSZNASS",
+        "name": "Character"
+      },
+      "cardSubTypes": [
+        {
+          "@type": "CardSubType",
+          "@id": "/.well-known/genid/838accea2c7e7fd2e369",
+          "reference": "ELEMENTAL",
+          "id": "01HKAGPA0G5NVDVVXS31BBX2AS",
+          "name": "Elemental"
+        }
+      ],
+      "rarity": {
+        "@id": "/rarities/RARE",
+        "@type": "Rarity",
+        "reference": "RARE",
+        "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+        "name": "Rare"
+      },
+      "cardProduct": {
+        "@id": "/card_products/01H1NW5YEN8B72T6CXPYDXV5CZ",
+        "@type": "CardProduct",
+        "reference": "B",
+        "name": "Booster"
+      },
+      "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_04/JPG/en_US/cff8936711c411ea60dcc47433a94616.jpg",
+      "latestAddition": null,
+      "inMyCollection": 0,
+      "inMyWantlist": false,
+      "assets": {
+        "WEB": [
+          "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_04/ALT_CORE_B_AX_04_C_WEB.jpg",
+          "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_04/ALT_CORE_B_AX_04_R_WEB.jpg",
+          "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_04/ALT_CORE_B_AX_04_U_WEB.jpg"
+        ]
+      },
+      "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_B_AX_04_R2",
+      "id": "01HKAFJNHHJ1HJ95Y9THZVCRQE",
+      "mainFaction": {
+        "@id": "/factions/MU",
+        "@type": "Faction",
+        "reference": "MU",
+        "color": "#3d6b42",
+        "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+        "name": "Muna"
+      },
+      "name": "Kelon Elemental",
+      "elements": {
+        "MAIN_COST": "2",
+        "RECALL_COST": "2",
+        "OCEAN_POWER": "3",
+        "MOUNTAIN_POWER": "3",
+        "FOREST_POWER": "1",
+        "MAIN_EFFECT": "{H} You may put a card from your hand in Reserve."
+      },
+      "collectorNumberFormatted": "BTG-010-F-EN"
+    },
+    {
+      "@id": "/cards/ALT_CORE_B_AX_05_C",
+      "@type": "Card",
+      "reference": "ALT_CORE_B_AX_05_C",
+      "cardType": {
+        "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+        "@type": "CardType",
+        "reference": "CHARACTER",
+        "id": "01H19NWA92A4ERAC4ATMSZNASS",
+        "name": "Character"
+      },
+      "cardSubTypes": [
+        {
+          "@type": "CardSubType",
+          "@id": "/.well-known/genid/b18cdec7a88606a4e9ba",
+          "reference": "ENGINEER",
+          "id": "01HKAGPA9AS71JN0H9HQZTBNCD",
+          "name": "Engineer"
+        }
+      ],
+      "rarity": {
+        "@id": "/rarities/COMMON",
+        "@type": "Rarity",
+        "reference": "COMMON",
+        "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+        "name": "Common"
+      },
+      "cardProduct": {
+        "@id": "/card_products/01H1NW5YEN8B72T6CXPYDXV5CZ",
+        "@type": "CardProduct",
+        "reference": "B",
+        "name": "Booster"
+      },
+      "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_05/JPG/en_US/c5499b8de1a23996bc9f3d18f0771f9a.jpg",
+      "latestAddition": null,
+      "inMyCollection": 0,
+      "inMyWantlist": false,
+      "assets": {
+        "WEB": [
+          "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_05/WEB_09804c2b90b8deddcd36f9ef098d4604",
+          "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_05/WEB_cbbc51dbf0723f1784b79d876f13d360",
+          "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_05/WEB_fadfa6f4983452eecbb24b1acd0f59df"
+        ]
+      },
+      "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_B_AX_05_C",
+      "id": "01HKAFJNHJ4MJSSRSW34M7578A",
+      "mainFaction": {
+        "@id": "/factions/AX",
+        "@type": "Faction",
+        "reference": "AX",
+        "color": "#8c432a",
+        "id": "01GE7AC9XBG707G19F03A95TH1",
+        "name": "Axiom"
+      },
+      "name": "Foundry Engineer",
+      "elements": {
+        "MAIN_COST": "2",
+        "RECALL_COST": "2",
+        "OCEAN_POWER": "1",
+        "MOUNTAIN_POWER": "2",
+        "FOREST_POWER": "2",
+        "MAIN_EFFECT": "{R} The next Permanent you play this Afternoon costs {1} less."
+      },
+      "collectorNumberFormatted": "BTG-008-C-EN"
+    },
+    {
+      "@id": "/cards/ALT_CORE_B_AX_05_R1",
+      "@type": "Card",
+      "reference": "ALT_CORE_B_AX_05_R1",
+      "cardType": {
+        "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+        "@type": "CardType",
+        "reference": "CHARACTER",
+        "id": "01H19NWA92A4ERAC4ATMSZNASS",
+        "name": "Character"
+      },
+      "cardSubTypes": [
+        {
+          "@type": "CardSubType",
+          "@id": "/.well-known/genid/b18cdec7a88606a4e9ba",
+          "reference": "ENGINEER",
+          "id": "01HKAGPA9AS71JN0H9HQZTBNCD",
+          "name": "Engineer"
+        }
+      ],
+      "rarity": {
+        "@id": "/rarities/RARE",
+        "@type": "Rarity",
+        "reference": "RARE",
+        "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+        "name": "Rare"
+      },
+      "cardProduct": {
+        "@id": "/card_products/01H1NW5YEN8B72T6CXPYDXV5CZ",
+        "@type": "CardProduct",
+        "reference": "B",
+        "name": "Booster"
+      },
+      "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_05/JPG/en_US/b04fb931c709c3eb26407668a0b08122.jpg",
+      "latestAddition": null,
+      "inMyCollection": 0,
+      "inMyWantlist": false,
+      "assets": {
+        "WEB": [
+          "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_05/WEB_09804c2b90b8deddcd36f9ef098d4604",
+          "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_05/WEB_cbbc51dbf0723f1784b79d876f13d360",
+          "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_05/WEB_fadfa6f4983452eecbb24b1acd0f59df"
+        ]
+      },
+      "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_B_AX_05_R1",
+      "id": "01HKAFJNHMKTFVSFYZ3WYJS6MC",
+      "mainFaction": {
+        "@id": "/factions/AX",
+        "@type": "Faction",
+        "reference": "AX",
+        "color": "#8c432a",
+        "id": "01GE7AC9XBG707G19F03A95TH1",
+        "name": "Axiom"
+      },
+      "name": "Foundry Engineer",
+      "elements": {
+        "FOREST_POWER": "2",
+        "MOUNTAIN_POWER": "2",
+        "MAIN_COST": "2",
+        "RECALL_COST": "2",
+        "OCEAN_POWER": "1",
+        "MAIN_EFFECT": "{R} The next Permanent you play this Afternoon costs {2} less."
+      },
+      "collectorNumberFormatted": "BTG-008-R-EN"
+    },
+    {
+      "@id": "/cards/ALT_CORE_B_AX_05_R2",
+      "@type": "Card",
+      "reference": "ALT_CORE_B_AX_05_R2",
+      "cardType": {
+        "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+        "@type": "CardType",
+        "reference": "CHARACTER",
+        "id": "01H19NWA92A4ERAC4ATMSZNASS",
+        "name": "Character"
+      },
+      "cardSubTypes": [
+        {
+          "@type": "CardSubType",
+          "@id": "/.well-known/genid/b18cdec7a88606a4e9ba",
+          "reference": "ENGINEER",
+          "id": "01HKAGPA9AS71JN0H9HQZTBNCD",
+          "name": "Engineer"
+        }
+      ],
+      "rarity": {
+        "@id": "/rarities/RARE",
+        "@type": "Rarity",
+        "reference": "RARE",
+        "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+        "name": "Rare"
+      },
+      "cardProduct": {
+        "@id": "/card_products/01H1NW5YEN8B72T6CXPYDXV5CZ",
+        "@type": "CardProduct",
+        "reference": "B",
+        "name": "Booster"
+      },
+      "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_05/JPG/en_US/3bdd6915e2df3c6eacd95a2649e36f7e.jpg",
+      "latestAddition": null,
+      "inMyCollection": 0,
+      "inMyWantlist": false,
+      "assets": {
+        "WEB": [
+          "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_05/WEB_09804c2b90b8deddcd36f9ef098d4604",
+          "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_05/WEB_cbbc51dbf0723f1784b79d876f13d360",
+          "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_05/WEB_fadfa6f4983452eecbb24b1acd0f59df"
+        ]
+      },
+      "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_B_AX_05_R2",
+      "id": "01HKAFJNHNX05QXW5D1PDFXGSG",
+      "mainFaction": {
+        "@id": "/factions/OR",
+        "@type": "Faction",
+        "reference": "OR",
+        "color": "#0f6593",
+        "id": "01GE7AC9X78DXSNKNB15KCF69X",
+        "name": "Ordis"
+      },
+      "name": "Foundry Engineer",
+      "elements": {
+        "MAIN_COST": "2",
+        "RECALL_COST": "2",
+        "OCEAN_POWER": "1",
+        "MOUNTAIN_POWER": "2",
+        "FOREST_POWER": "2",
+        "MAIN_EFFECT": "{R} The next Permanent you play this Afternoon costs {2} less."
+      },
+      "collectorNumberFormatted": "BTG-008-F-EN"
+    },
+    {
+      "@id": "/cards/ALT_CORE_B_AX_06_C",
+      "@type": "Card",
+      "reference": "ALT_CORE_B_AX_06_C",
+      "cardType": {
+        "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+        "@type": "CardType",
+        "reference": "CHARACTER",
+        "id": "01H19NWA92A4ERAC4ATMSZNASS",
+        "name": "Character"
+      },
+      "cardSubTypes": [
+        {
+          "@type": "CardSubType",
+          "@id": "/.well-known/genid/b18cdec7a88606a4e9ba",
+          "reference": "ENGINEER",
+          "id": "01HKAGPA9AS71JN0H9HQZTBNCD",
+          "name": "Engineer"
+        },
+        {
+          "@type": "CardSubType",
+          "@id": "/.well-known/genid/779684684762f529ecb8",
+          "reference": "DEITY",
+          "id": "01HKAGPAJFS4YDQVKY6AB16614",
+          "name": "Deity"
+        }
+      ],
+      "rarity": {
+        "@id": "/rarities/COMMON",
+        "@type": "Rarity",
+        "reference": "COMMON",
+        "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+        "name": "Common"
+      },
+      "cardProduct": {
+        "@id": "/card_products/01H1NW5YEN8B72T6CXPYDXV5CZ",
+        "@type": "CardProduct",
+        "reference": "B",
+        "name": "Booster"
+      },
+      "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_06/JPG/en_US/4582213a2ce81af7e2e26b2c9157f0ef.jpg",
+      "latestAddition": null,
+      "inMyCollection": 0,
+      "inMyWantlist": false,
+      "assets": {
+        "WEB": [
+          "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_06/ALT_CORE_B_AX_06_C_WEB.jpg",
+          "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_06/ALT_CORE_B_AX_06_R_WEB.jpg",
+          "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_06/ALT_CORE_B_AX_06_U_WEB.jpg"
+        ]
+      },
+      "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_B_AX_06_C",
+      "id": "01HKAFJNHPYHCW8R66SNPG06K0",
+      "mainFaction": {
+        "@id": "/factions/AX",
+        "@type": "Faction",
+        "reference": "AX",
+        "color": "#8c432a",
+        "id": "01GE7AC9XBG707G19F03A95TH1",
+        "name": "Axiom"
+      },
+      "name": "Ogun",
+      "elements": {
+        "MAIN_COST": "2",
+        "RECALL_COST": "2",
+        "OCEAN_POWER": "1",
+        "MOUNTAIN_POWER": "1",
+        "FOREST_POWER": "2",
+        "MAIN_EFFECT": "{J} Robots you control gain 1 boost[]. (A boost is a +1/+1/+1 counter. Remove it when it leaves the Expedition zone.)"
+      },
+      "collectorNumberFormatted": "BTG-011-C-EN"
+    },
+    {
+      "@id": "/cards/ALT_CORE_B_AX_06_R1",
+      "@type": "Card",
+      "reference": "ALT_CORE_B_AX_06_R1",
+      "cardType": {
+        "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+        "@type": "CardType",
+        "reference": "CHARACTER",
+        "id": "01H19NWA92A4ERAC4ATMSZNASS",
+        "name": "Character"
+      },
+      "cardSubTypes": [
+        {
+          "@type": "CardSubType",
+          "@id": "/.well-known/genid/b18cdec7a88606a4e9ba",
+          "reference": "ENGINEER",
+          "id": "01HKAGPA9AS71JN0H9HQZTBNCD",
+          "name": "Engineer"
+        },
+        {
+          "@type": "CardSubType",
+          "@id": "/.well-known/genid/779684684762f529ecb8",
+          "reference": "DEITY",
+          "id": "01HKAGPAJFS4YDQVKY6AB16614",
+          "name": "Deity"
+        }
+      ],
+      "rarity": {
+        "@id": "/rarities/RARE",
+        "@type": "Rarity",
+        "reference": "RARE",
+        "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+        "name": "Rare"
+      },
+      "cardProduct": {
+        "@id": "/card_products/01H1NW5YEN8B72T6CXPYDXV5CZ",
+        "@type": "CardProduct",
+        "reference": "B",
+        "name": "Booster"
+      },
+      "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_06/JPG/en_US/7c3578af4c2b27e897a5ca65fc397b71.jpg",
+      "latestAddition": null,
+      "inMyCollection": 0,
+      "inMyWantlist": false,
+      "assets": {
+        "WEB": [
+          "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_06/ALT_CORE_B_AX_06_C_WEB.jpg",
+          "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_06/ALT_CORE_B_AX_06_R_WEB.jpg",
+          "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_06/ALT_CORE_B_AX_06_U_WEB.jpg"
+        ]
+      },
+      "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_B_AX_06_R1",
+      "id": "01HKAFJNHQWWZASVVXABHXGK42",
+      "mainFaction": {
+        "@id": "/factions/AX",
+        "@type": "Faction",
+        "reference": "AX",
+        "color": "#8c432a",
+        "id": "01GE7AC9XBG707G19F03A95TH1",
+        "name": "Axiom"
+      },
+      "name": "Ogun",
+      "elements": {
+        "MAIN_COST": "2",
+        "RECALL_COST": "2",
+        "OCEAN_POWER": "1",
+        "MOUNTAIN_POWER": "1",
+        "FOREST_POWER": "2",
+        "MAIN_EFFECT": "{J} You may pay {2} to create a [Brassbug 2/2/2] Robot token in target Expedition. Then, Robots you control gain 1 boost."
+      },
+      "collectorNumberFormatted": "BTG-011-R-EN"
+    },
+    {
+      "@id": "/cards/ALT_CORE_B_AX_06_R2",
+      "@type": "Card",
+      "reference": "ALT_CORE_B_AX_06_R2",
+      "cardType": {
+        "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+        "@type": "CardType",
+        "reference": "CHARACTER",
+        "id": "01H19NWA92A4ERAC4ATMSZNASS",
+        "name": "Character"
+      },
+      "cardSubTypes": [
+        {
+          "@type": "CardSubType",
+          "@id": "/.well-known/genid/b18cdec7a88606a4e9ba",
+          "reference": "ENGINEER",
+          "id": "01HKAGPA9AS71JN0H9HQZTBNCD",
+          "name": "Engineer"
+        },
+        {
+          "@type": "CardSubType",
+          "@id": "/.well-known/genid/779684684762f529ecb8",
+          "reference": "DEITY",
+          "id": "01HKAGPAJFS4YDQVKY6AB16614",
+          "name": "Deity"
+        }
+      ],
+      "rarity": {
+        "@id": "/rarities/RARE",
+        "@type": "Rarity",
+        "reference": "RARE",
+        "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+        "name": "Rare"
+      },
+      "cardProduct": {
+        "@id": "/card_products/01H1NW5YEN8B72T6CXPYDXV5CZ",
+        "@type": "CardProduct",
+        "reference": "B",
+        "name": "Booster"
+      },
+      "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_06/JPG/en_US/3c2794f19b83bc4e4e99002d937f54a4.jpg",
+      "latestAddition": null,
+      "inMyCollection": 0,
+      "inMyWantlist": false,
+      "assets": {
+        "WEB": [
+          "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_06/ALT_CORE_B_AX_06_C_WEB.jpg",
+          "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_06/ALT_CORE_B_AX_06_R_WEB.jpg",
+          "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_06/ALT_CORE_B_AX_06_U_WEB.jpg"
+        ]
+      },
+      "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_B_AX_06_R2",
+      "id": "01HKAFJNHSBDMFCQ5JMAD8PYW8",
+      "mainFaction": {
+        "@id": "/factions/MU",
+        "@type": "Faction",
+        "reference": "MU",
+        "color": "#3d6b42",
+        "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+        "name": "Muna"
+      },
+      "name": "Ogun",
+      "elements": {
+        "MAIN_COST": "2",
+        "RECALL_COST": "2",
+        "OCEAN_POWER": "1",
+        "MOUNTAIN_POWER": "1",
+        "FOREST_POWER": "2",
+        "MAIN_EFFECT": "{J} Plants you control gain 1 boost."
+      },
+      "collectorNumberFormatted": "BTG-011-F-EN"
+    },
+    {
+      "@id": "/cards/ALT_CORE_B_AX_07_C",
+      "@type": "Card",
+      "reference": "ALT_CORE_B_AX_07_C",
+      "cardType": {
+        "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+        "@type": "CardType",
+        "reference": "CHARACTER",
+        "id": "01H19NWA92A4ERAC4ATMSZNASS",
+        "name": "Character"
+      },
+      "cardSubTypes": [
+        {
+          "@type": "CardSubType",
+          "@id": "/.well-known/genid/b18cdec7a88606a4e9ba",
+          "reference": "ENGINEER",
+          "id": "01HKAGPA9AS71JN0H9HQZTBNCD",
+          "name": "Engineer"
+        }
+      ],
+      "rarity": {
+        "@id": "/rarities/COMMON",
+        "@type": "Rarity",
+        "reference": "COMMON",
+        "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+        "name": "Common"
+      },
+      "cardProduct": {
+        "@id": "/card_products/01H1NW5YEN8B72T6CXPYDXV5CZ",
+        "@type": "CardProduct",
+        "reference": "B",
+        "name": "Booster"
+      },
+      "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_07/JPG/en_US/c00690f154c2173bc26f6802812f5f3f.jpg",
+      "latestAddition": null,
+      "inMyCollection": 0,
+      "inMyWantlist": false,
+      "assets": {
+        "WEB": [
+          "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_07/ALT_CORE_B_AX_07_C_WEB.jpg",
+          "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_07/ALT_CORE_B_AX_07_R_WEB.jpg",
+          "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_07/ALT_CORE_B_AX_07_U_WEB.jpg"
+        ]
+      },
+      "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_B_AX_07_C",
+      "id": "01HKAFJNHTPQ9BSTJFW2DHDD8R",
+      "mainFaction": {
+        "@id": "/factions/AX",
+        "@type": "Faction",
+        "reference": "AX",
+        "color": "#8c432a",
+        "id": "01GE7AC9XBG707G19F03A95TH1",
+        "name": "Axiom"
+      },
+      "name": "Foundry Mechanic",
+      "elements": {
+        "MAIN_COST": "1",
+        "RECALL_COST": "1",
+        "OCEAN_POWER": "1",
+        "MOUNTAIN_POWER": "1",
+        "FOREST_POWER": "0",
+        "ECHO_EFFECT": "{D} : The next Permanent you play this turn costs {1} less. (Discard me from Reserve to do this.)"
+      },
+      "collectorNumberFormatted": "BTG-004-C-EN"
+    },
+    {
+      "@id": "/cards/ALT_CORE_B_AX_07_R1",
+      "@type": "Card",
+      "reference": "ALT_CORE_B_AX_07_R1",
+      "cardType": {
+        "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+        "@type": "CardType",
+        "reference": "CHARACTER",
+        "id": "01H19NWA92A4ERAC4ATMSZNASS",
+        "name": "Character"
+      },
+      "cardSubTypes": [
+        {
+          "@type": "CardSubType",
+          "@id": "/.well-known/genid/b18cdec7a88606a4e9ba",
+          "reference": "ENGINEER",
+          "id": "01HKAGPA9AS71JN0H9HQZTBNCD",
+          "name": "Engineer"
+        }
+      ],
+      "rarity": {
+        "@id": "/rarities/RARE",
+        "@type": "Rarity",
+        "reference": "RARE",
+        "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+        "name": "Rare"
+      },
+      "cardProduct": {
+        "@id": "/card_products/01H1NW5YEN8B72T6CXPYDXV5CZ",
+        "@type": "CardProduct",
+        "reference": "B",
+        "name": "Booster"
+      },
+      "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_07/JPG/en_US/7afba116182d4c7d95beaad7b8a4659f.jpg",
+      "latestAddition": null,
+      "inMyCollection": 0,
+      "inMyWantlist": false,
+      "assets": {
+        "WEB": [
+          "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_07/ALT_CORE_B_AX_07_C_WEB.jpg",
+          "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_07/ALT_CORE_B_AX_07_R_WEB.jpg",
+          "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_07/ALT_CORE_B_AX_07_U_WEB.jpg"
+        ]
+      },
+      "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_B_AX_07_R1",
+      "id": "01HKAFJNHVC8XD672W2W07MYCK",
+      "mainFaction": {
+        "@id": "/factions/AX",
+        "@type": "Faction",
+        "reference": "AX",
+        "color": "#8c432a",
+        "id": "01GE7AC9XBG707G19F03A95TH1",
+        "name": "Axiom"
+      },
+      "name": "Foundry Mechanic",
+      "elements": {
+        "MAIN_COST": "1",
+        "RECALL_COST": "1",
+        "OCEAN_POWER": "2",
+        "MOUNTAIN_POWER": "1",
+        "FOREST_POWER": "1",
+        "ECHO_EFFECT": "{D} : The next Permanent you play this turn costs {1} less. (Discard me from Reserve to do this.)"
+      },
+      "collectorNumberFormatted": "BTG-004-R-EN"
+    },
+    {
+      "@id": "/cards/ALT_CORE_B_AX_07_R2",
+      "@type": "Card",
+      "reference": "ALT_CORE_B_AX_07_R2",
+      "cardType": {
+        "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+        "@type": "CardType",
+        "reference": "CHARACTER",
+        "id": "01H19NWA92A4ERAC4ATMSZNASS",
+        "name": "Character"
+      },
+      "cardSubTypes": [
+        {
+          "@type": "CardSubType",
+          "@id": "/.well-known/genid/b18cdec7a88606a4e9ba",
+          "reference": "ENGINEER",
+          "id": "01HKAGPA9AS71JN0H9HQZTBNCD",
+          "name": "Engineer"
+        }
+      ],
+      "rarity": {
+        "@id": "/rarities/RARE",
+        "@type": "Rarity",
+        "reference": "RARE",
+        "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+        "name": "Rare"
+      },
+      "cardProduct": {
+        "@id": "/card_products/01H1NW5YEN8B72T6CXPYDXV5CZ",
+        "@type": "CardProduct",
+        "reference": "B",
+        "name": "Booster"
+      },
+      "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_07/JPG/en_US/1892f5acf095f12ae21d434971245249.jpg",
+      "latestAddition": null,
+      "inMyCollection": 0,
+      "inMyWantlist": false,
+      "assets": {
+        "WEB": [
+          "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_07/ALT_CORE_B_AX_07_C_WEB.jpg",
+          "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_07/ALT_CORE_B_AX_07_R_WEB.jpg",
+          "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_07/ALT_CORE_B_AX_07_U_WEB.jpg"
+        ]
+      },
+      "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_B_AX_07_R2",
+      "id": "01HKAFJNHX8F5P5WWKYW1WQW8E",
+      "mainFaction": {
+        "@id": "/factions/OR",
+        "@type": "Faction",
+        "reference": "OR",
+        "color": "#0f6593",
+        "id": "01GE7AC9X78DXSNKNB15KCF69X",
+        "name": "Ordis"
+      },
+      "name": "Foundry Mechanic",
+      "elements": {
+        "FOREST_POWER": "1",
+        "MAIN_COST": "1",
+        "RECALL_COST": "1",
+        "OCEAN_POWER": "2",
+        "MOUNTAIN_POWER": "1",
+        "ECHO_EFFECT": "{D} : The next Permanent you play this turn costs {1} less. (Discard me from Reserve to do this.)"
+      },
+      "collectorNumberFormatted": "BTG-004-F-EN"
+    },
+    {
+      "@id": "/cards/ALT_CORE_B_AX_08_C",
+      "@type": "Card",
+      "reference": "ALT_CORE_B_AX_08_C",
+      "cardType": {
+        "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+        "@type": "CardType",
+        "reference": "CHARACTER",
+        "id": "01H19NWA92A4ERAC4ATMSZNASS",
+        "name": "Character"
+      },
+      "cardSubTypes": [
+        {
+          "@type": "CardSubType",
+          "@id": "/.well-known/genid/b18cdec7a88606a4e9ba",
+          "reference": "ENGINEER",
+          "id": "01HKAGPA9AS71JN0H9HQZTBNCD",
+          "name": "Engineer"
+        }
+      ],
+      "rarity": {
+        "@id": "/rarities/COMMON",
+        "@type": "Rarity",
+        "reference": "COMMON",
+        "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+        "name": "Common"
+      },
+      "cardProduct": {
+        "@id": "/card_products/01H1NW5YEN8B72T6CXPYDXV5CZ",
+        "@type": "CardProduct",
+        "reference": "B",
+        "name": "Booster"
+      },
+      "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_08/JPG/en_US/3f97f3f54502ce702524e05aed7774a5.jpg",
+      "latestAddition": null,
+      "inMyCollection": 0,
+      "inMyWantlist": false,
+      "assets": {
+        "WEB": [
+          "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_08/ALT_CORE_B_AX_08_C_WEB.jpg",
+          "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_08/ALT_CORE_B_AX_08_R_WEB.jpg",
+          "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_08/ALT_CORE_B_AX_08_U_WEB.jpg"
+        ]
+      },
+      "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_B_AX_08_C",
+      "id": "01HKAFJNHYMTQ379XADMW17MM1",
+      "mainFaction": {
+        "@id": "/factions/AX",
+        "@type": "Faction",
+        "reference": "AX",
+        "color": "#8c432a",
+        "id": "01GE7AC9XBG707G19F03A95TH1",
+        "name": "Axiom"
+      },
+      "name": "Axiom Salvager",
+      "elements": {
+        "MAIN_COST": "1",
+        "RECALL_COST": "2",
+        "OCEAN_POWER": "1",
+        "MOUNTAIN_POWER": "1",
+        "FOREST_POWER": "1",
+        "MAIN_EFFECT": "{R} [Resupply]. (Put the top card of your deck in Reserve.)"
+      },
+      "collectorNumberFormatted": "BTG-005-C-EN"
+    },
+    {
+      "@id": "/cards/ALT_CORE_B_AX_08_R1",
+      "@type": "Card",
+      "reference": "ALT_CORE_B_AX_08_R1",
+      "cardType": {
+        "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+        "@type": "CardType",
+        "reference": "CHARACTER",
+        "id": "01H19NWA92A4ERAC4ATMSZNASS",
+        "name": "Character"
+      },
+      "cardSubTypes": [
+        {
+          "@type": "CardSubType",
+          "@id": "/.well-known/genid/b18cdec7a88606a4e9ba",
+          "reference": "ENGINEER",
+          "id": "01HKAGPA9AS71JN0H9HQZTBNCD",
+          "name": "Engineer"
+        }
+      ],
+      "rarity": {
+        "@id": "/rarities/RARE",
+        "@type": "Rarity",
+        "reference": "RARE",
+        "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+        "name": "Rare"
+      },
+      "cardProduct": {
+        "@id": "/card_products/01H1NW5YEN8B72T6CXPYDXV5CZ",
+        "@type": "CardProduct",
+        "reference": "B",
+        "name": "Booster"
+      },
+      "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_08/JPG/en_US/389b02630b427344972f8ffc1ddc61f8.jpg",
+      "latestAddition": null,
+      "inMyCollection": 0,
+      "inMyWantlist": false,
+      "assets": {
+        "WEB": [
+          "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_08/ALT_CORE_B_AX_08_C_WEB.jpg",
+          "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_08/ALT_CORE_B_AX_08_R_WEB.jpg",
+          "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_08/ALT_CORE_B_AX_08_U_WEB.jpg"
+        ]
+      },
+      "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_B_AX_08_R1",
+      "id": "01HKAFJNHZYCM51XFNXHSS6E38",
+      "mainFaction": {
+        "@id": "/factions/AX",
+        "@type": "Faction",
+        "reference": "AX",
+        "color": "#8c432a",
+        "id": "01GE7AC9XBG707G19F03A95TH1",
+        "name": "Axiom"
+      },
+      "name": "Axiom Salvager",
+      "elements": {
+        "MAIN_COST": "1",
+        "RECALL_COST": "1",
+        "OCEAN_POWER": "0",
+        "MOUNTAIN_POWER": "1",
+        "FOREST_POWER": "1",
+        "MAIN_EFFECT": "{R} [Resupply]. (Put the top card of your deck in Reserve.)"
+      },
+      "collectorNumberFormatted": "BTG-005-R-EN"
+    },
+    {
+      "@id": "/cards/ALT_CORE_B_AX_08_R2",
+      "@type": "Card",
+      "reference": "ALT_CORE_B_AX_08_R2",
+      "cardType": {
+        "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+        "@type": "CardType",
+        "reference": "CHARACTER",
+        "id": "01H19NWA92A4ERAC4ATMSZNASS",
+        "name": "Character"
+      },
+      "cardSubTypes": [
+        {
+          "@type": "CardSubType",
+          "@id": "/.well-known/genid/b18cdec7a88606a4e9ba",
+          "reference": "ENGINEER",
+          "id": "01HKAGPA9AS71JN0H9HQZTBNCD",
+          "name": "Engineer"
+        }
+      ],
+      "rarity": {
+        "@id": "/rarities/RARE",
+        "@type": "Rarity",
+        "reference": "RARE",
+        "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+        "name": "Rare"
+      },
+      "cardProduct": {
+        "@id": "/card_products/01H1NW5YEN8B72T6CXPYDXV5CZ",
+        "@type": "CardProduct",
+        "reference": "B",
+        "name": "Booster"
+      },
+      "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_08/JPG/en_US/9f87b61c0161ac7e91b314d67b765f70.jpg",
+      "latestAddition": null,
+      "inMyCollection": 0,
+      "inMyWantlist": false,
+      "assets": {
+        "WEB": [
+          "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_08/ALT_CORE_B_AX_08_C_WEB.jpg",
+          "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_08/ALT_CORE_B_AX_08_R_WEB.jpg",
+          "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_08/ALT_CORE_B_AX_08_U_WEB.jpg"
+        ]
+      },
+      "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_B_AX_08_R2",
+      "id": "01HKAFJNJ1B7568EV1C9VVY5QM",
+      "mainFaction": {
+        "@id": "/factions/BR",
+        "@type": "Faction",
+        "reference": "BR",
+        "color": "#c32637",
+        "id": "01GE7AC9WY6PK56RADXXD6P1T4",
+        "name": "Bravos"
+      },
+      "name": "Axiom Salvager",
+      "elements": {
+        "MAIN_COST": "1",
+        "RECALL_COST": "2",
+        "OCEAN_POWER": "1",
+        "MOUNTAIN_POWER": "1",
+        "FOREST_POWER": "1",
+        "MAIN_EFFECT": "{R} [Resupply]. (Put the top card of your deck in Reserve.)"
+      },
+      "collectorNumberFormatted": "BTG-005-F-EN"
+    },
+    {
+      "@id": "/cards/ALT_CORE_B_AX_09_C",
+      "@type": "Card",
+      "reference": "ALT_CORE_B_AX_09_C",
+      "cardType": {
+        "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+        "@type": "CardType",
+        "reference": "CHARACTER",
+        "id": "01H19NWA92A4ERAC4ATMSZNASS",
+        "name": "Character"
+      },
+      "cardSubTypes": [
+        {
+          "@type": "CardSubType",
+          "@id": "/.well-known/genid/cfeee1d04e04101e79c3",
+          "reference": "FAIRY",
+          "id": "01HKAGPBKC6V2RK28EZGHP8VWW",
+          "name": "Fairy"
+        }
+      ],
+      "rarity": {
+        "@id": "/rarities/COMMON",
+        "@type": "Rarity",
+        "reference": "COMMON",
+        "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+        "name": "Common"
+      },
+      "cardProduct": {
+        "@id": "/card_products/01H1NW5YEN8B72T6CXPYDXV5CZ",
+        "@type": "CardProduct",
+        "reference": "B",
+        "name": "Booster"
+      },
+      "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_09/JPG/en_US/98b195c78bccb518a3a419b879b957d5.jpg",
+      "latestAddition": null,
+      "inMyCollection": 0,
+      "inMyWantlist": false,
+      "assets": {
+        "WEB": [
+          "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_09/ALT_CORE_B_AX_09_C_WEB.jpg",
+          "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_09/ALT_CORE_B_AX_09_R_WEB.jpg",
+          "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_09/ALT_CORE_B_AX_09_U_WEB.jpg"
+        ]
+      },
+      "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_B_AX_09_C",
+      "id": "01HKAFJNJ2611ZC2H60B84Z82R",
+      "mainFaction": {
+        "@id": "/factions/AX",
+        "@type": "Faction",
+        "reference": "AX",
+        "color": "#8c432a",
+        "id": "01GE7AC9XBG707G19F03A95TH1",
+        "name": "Axiom"
+      },
+      "name": "Tinker Bell",
+      "elements": {
+        "MAIN_COST": "3",
+        "RECALL_COST": "3",
+        "OCEAN_POWER": "3",
+        "MOUNTAIN_POWER": "3",
+        "FOREST_POWER": "1",
+        "MAIN_EFFECT": "{R} [Sabotage]. (Discard up to one target card from a Reserve.)"
+      },
+      "collectorNumberFormatted": "BTG-015-C-EN"
+    },
+    {
+      "@id": "/cards/ALT_CORE_B_AX_09_R1",
+      "@type": "Card",
+      "reference": "ALT_CORE_B_AX_09_R1",
+      "cardType": {
+        "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+        "@type": "CardType",
+        "reference": "CHARACTER",
+        "id": "01H19NWA92A4ERAC4ATMSZNASS",
+        "name": "Character"
+      },
+      "cardSubTypes": [
+        {
+          "@type": "CardSubType",
+          "@id": "/.well-known/genid/cfeee1d04e04101e79c3",
+          "reference": "FAIRY",
+          "id": "01HKAGPBKC6V2RK28EZGHP8VWW",
+          "name": "Fairy"
+        }
+      ],
+      "rarity": {
+        "@id": "/rarities/RARE",
+        "@type": "Rarity",
+        "reference": "RARE",
+        "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+        "name": "Rare"
+      },
+      "cardProduct": {
+        "@id": "/card_products/01H1NW5YEN8B72T6CXPYDXV5CZ",
+        "@type": "CardProduct",
+        "reference": "B",
+        "name": "Booster"
+      },
+      "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_09/JPG/en_US/b97347b4c6be8fbf7f1ffc29131bcdc4.jpg",
+      "latestAddition": null,
+      "inMyCollection": 0,
+      "inMyWantlist": false,
+      "assets": {
+        "WEB": [
+          "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_09/ALT_CORE_B_AX_09_C_WEB.jpg",
+          "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_09/ALT_CORE_B_AX_09_R_WEB.jpg",
+          "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_09/ALT_CORE_B_AX_09_U_WEB.jpg"
+        ]
+      },
+      "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_B_AX_09_R1",
+      "id": "01HKAFJNJ350AAMMWZ65ZX8NF8",
+      "mainFaction": {
+        "@id": "/factions/AX",
+        "@type": "Faction",
+        "reference": "AX",
+        "color": "#8c432a",
+        "id": "01GE7AC9XBG707G19F03A95TH1",
+        "name": "Axiom"
+      },
+      "name": "Tinker Bell",
+      "elements": {
+        "MAIN_COST": "2",
+        "RECALL_COST": "3",
+        "OCEAN_POWER": "3",
+        "MOUNTAIN_POWER": "3",
+        "FOREST_POWER": "1",
+        "MAIN_EFFECT": "{R} [Sabotage]. (Discard up to one target card from a Reserve.)"
+      },
+      "collectorNumberFormatted": "BTG-015-R-EN"
+    },
+    {
+      "@id": "/cards/ALT_CORE_B_AX_09_R2",
+      "@type": "Card",
+      "reference": "ALT_CORE_B_AX_09_R2",
+      "cardType": {
+        "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+        "@type": "CardType",
+        "reference": "CHARACTER",
+        "id": "01H19NWA92A4ERAC4ATMSZNASS",
+        "name": "Character"
+      },
+      "cardSubTypes": [
+        {
+          "@type": "CardSubType",
+          "@id": "/.well-known/genid/cfeee1d04e04101e79c3",
+          "reference": "FAIRY",
+          "id": "01HKAGPBKC6V2RK28EZGHP8VWW",
+          "name": "Fairy"
+        }
+      ],
+      "rarity": {
+        "@id": "/rarities/RARE",
+        "@type": "Rarity",
+        "reference": "RARE",
+        "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+        "name": "Rare"
+      },
+      "cardProduct": {
+        "@id": "/card_products/01H1NW5YEN8B72T6CXPYDXV5CZ",
+        "@type": "CardProduct",
+        "reference": "B",
+        "name": "Booster"
+      },
+      "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_09/JPG/en_US/e2b04440c60c024c61711b663fcec904.jpg",
+      "latestAddition": null,
+      "inMyCollection": 0,
+      "inMyWantlist": false,
+      "assets": {
+        "WEB": [
+          "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_09/ALT_CORE_B_AX_09_C_WEB.jpg",
+          "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_09/ALT_CORE_B_AX_09_R_WEB.jpg",
+          "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_09/ALT_CORE_B_AX_09_U_WEB.jpg"
+        ]
+      },
+      "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_B_AX_09_R2",
+      "id": "01HKAFJNJ40YM40JSR0NKNRJFX",
+      "mainFaction": {
+        "@id": "/factions/LY",
+        "@type": "Faction",
+        "reference": "LY",
+        "color": "#cf4171",
+        "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
+        "name": "Lyra"
+      },
+      "name": "Tinker Bell",
+      "elements": {
+        "MAIN_COST": "2",
+        "RECALL_COST": "3",
+        "OCEAN_POWER": "3",
+        "MOUNTAIN_POWER": "3",
+        "FOREST_POWER": "1",
+        "MAIN_EFFECT": "{R} [Sabotage]. (Discard up to one target card from a Reserve.)"
+      },
+      "collectorNumberFormatted": "BTG-015-F-EN"
+    },
+    {
+      "@id": "/cards/ALT_CORE_B_AX_10_C",
+      "@type": "Card",
+      "reference": "ALT_CORE_B_AX_10_C",
+      "cardType": {
+        "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+        "@type": "CardType",
+        "reference": "CHARACTER",
+        "id": "01H19NWA92A4ERAC4ATMSZNASS",
+        "name": "Character"
+      },
+      "cardSubTypes": [
+        {
+          "@type": "CardSubType",
+          "@id": "/.well-known/genid/b18cdec7a88606a4e9ba",
+          "reference": "ENGINEER",
+          "id": "01HKAGPA9AS71JN0H9HQZTBNCD",
+          "name": "Engineer"
+        }
+      ],
+      "rarity": {
+        "@id": "/rarities/COMMON",
+        "@type": "Rarity",
+        "reference": "COMMON",
+        "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+        "name": "Common"
+      },
+      "cardProduct": {
+        "@id": "/card_products/01H1NW5YEN8B72T6CXPYDXV5CZ",
+        "@type": "CardProduct",
+        "reference": "B",
+        "name": "Booster"
+      },
+      "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_10/JPG/en_US/8a71802fe71a6a48e19317c6892d388a.jpg",
+      "latestAddition": null,
+      "inMyCollection": 0,
+      "inMyWantlist": false,
+      "assets": {
+        "WEB": [
+          "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_10/ALT_CORE_B_AX_10_C_WEB.jpg",
+          "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_10/ALT_CORE_B_AX_10_R_WEB.jpg",
+          "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_10/ALT_CORE_B_AX_10_U_WEB.jpg"
+        ]
+      },
+      "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_B_AX_10_C",
+      "id": "01HKAFJNJ6S2WR2VDA7DSRY8MQ",
+      "mainFaction": {
+        "@id": "/factions/AX",
+        "@type": "Faction",
+        "reference": "AX",
+        "color": "#8c432a",
+        "id": "01GE7AC9XBG707G19F03A95TH1",
+        "name": "Axiom"
+      },
+      "name": "Jian, Assembly Overseer",
+      "elements": {
+        "MAIN_COST": "2",
+        "RECALL_COST": "2",
+        "OCEAN_POWER": "0",
+        "MOUNTAIN_POWER": "2",
+        "FOREST_POWER": "3"
+      },
+      "collectorNumberFormatted": "BTG-009-C-EN"
+    },
+    {
+      "@id": "/cards/ALT_CORE_B_AX_10_R1",
+      "@type": "Card",
+      "reference": "ALT_CORE_B_AX_10_R1",
+      "cardType": {
+        "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+        "@type": "CardType",
+        "reference": "CHARACTER",
+        "id": "01H19NWA92A4ERAC4ATMSZNASS",
+        "name": "Character"
+      },
+      "cardSubTypes": [
+        {
+          "@type": "CardSubType",
+          "@id": "/.well-known/genid/b18cdec7a88606a4e9ba",
+          "reference": "ENGINEER",
+          "id": "01HKAGPA9AS71JN0H9HQZTBNCD",
+          "name": "Engineer"
+        }
+      ],
+      "rarity": {
+        "@id": "/rarities/RARE",
+        "@type": "Rarity",
+        "reference": "RARE",
+        "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+        "name": "Rare"
+      },
+      "cardProduct": {
+        "@id": "/card_products/01H1NW5YEN8B72T6CXPYDXV5CZ",
+        "@type": "CardProduct",
+        "reference": "B",
+        "name": "Booster"
+      },
+      "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_10/JPG/en_US/d79c2a5e09e02d48c60d3f756adf1ba7.jpg",
+      "latestAddition": null,
+      "inMyCollection": 0,
+      "inMyWantlist": false,
+      "assets": {
+        "WEB": [
+          "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_10/ALT_CORE_B_AX_10_C_WEB.jpg",
+          "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_10/ALT_CORE_B_AX_10_R_WEB.jpg",
+          "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_10/ALT_CORE_B_AX_10_U_WEB.jpg"
+        ]
+      },
+      "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_B_AX_10_R1",
+      "id": "01HKAFJNJ7558PPJYXX3MH5GYE",
+      "mainFaction": {
+        "@id": "/factions/AX",
+        "@type": "Faction",
+        "reference": "AX",
+        "color": "#8c432a",
+        "id": "01GE7AC9XBG707G19F03A95TH1",
+        "name": "Axiom"
+      },
+      "name": "Jian, Assembly Overseer",
+      "elements": {
+        "MAIN_COST": "2",
+        "RECALL_COST": "2",
+        "OCEAN_POWER": "0",
+        "MOUNTAIN_POWER": "2",
+        "FOREST_POWER": "3",
+        "ECHO_EFFECT": "{D} : Activate the {j} triggers of target Permanent you control. (Discard me from Reserve to do this.)"
+      },
+      "collectorNumberFormatted": "BTG-009-R-EN"
+    },
+    {
+      "@id": "/cards/ALT_CORE_B_AX_10_R2",
+      "@type": "Card",
+      "reference": "ALT_CORE_B_AX_10_R2",
+      "cardType": {
+        "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+        "@type": "CardType",
+        "reference": "CHARACTER",
+        "id": "01H19NWA92A4ERAC4ATMSZNASS",
+        "name": "Character"
+      },
+      "cardSubTypes": [
+        {
+          "@type": "CardSubType",
+          "@id": "/.well-known/genid/b18cdec7a88606a4e9ba",
+          "reference": "ENGINEER",
+          "id": "01HKAGPA9AS71JN0H9HQZTBNCD",
+          "name": "Engineer"
+        }
+      ],
+      "rarity": {
+        "@id": "/rarities/RARE",
+        "@type": "Rarity",
+        "reference": "RARE",
+        "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+        "name": "Rare"
+      },
+      "cardProduct": {
+        "@id": "/card_products/01H1NW5YEN8B72T6CXPYDXV5CZ",
+        "@type": "CardProduct",
+        "reference": "B",
+        "name": "Booster"
+      },
+      "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_10/JPG/en_US/ebd9ded5d0a1541ee8f3ec85e66983f0.jpg",
+      "latestAddition": null,
+      "inMyCollection": 0,
+      "inMyWantlist": false,
+      "assets": {
+        "WEB": [
+          "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_10/ALT_CORE_B_AX_10_C_WEB.jpg",
+          "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_10/ALT_CORE_B_AX_10_R_WEB.jpg",
+          "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_10/ALT_CORE_B_AX_10_U_WEB.jpg"
+        ]
+      },
+      "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_B_AX_10_R2",
+      "id": "01HKAFJNJ8N9T73F0NM286MNZP",
+      "mainFaction": {
+        "@id": "/factions/OR",
+        "@type": "Faction",
+        "reference": "OR",
+        "color": "#0f6593",
+        "id": "01GE7AC9X78DXSNKNB15KCF69X",
+        "name": "Ordis"
+      },
+      "name": "Jian, Assembly Overseer",
+      "elements": {
+        "MAIN_COST": "2",
+        "RECALL_COST": "2",
+        "OCEAN_POWER": "0",
+        "MOUNTAIN_POWER": "2",
+        "FOREST_POWER": "3",
+        "ECHO_EFFECT": "{D} : Activate the {j} triggers of target Permanent you control. (Discard me from Reserve to do this.)"
+      },
+      "collectorNumberFormatted": "BTG-009-F-EN"
+    },
+    {
+      "@id": "/cards/ALT_CORE_B_AX_11_C",
+      "@type": "Card",
+      "reference": "ALT_CORE_B_AX_11_C",
+      "cardType": {
+        "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+        "@type": "CardType",
+        "reference": "CHARACTER",
+        "id": "01H19NWA92A4ERAC4ATMSZNASS",
+        "name": "Character"
+      },
+      "cardSubTypes": [
+        {
+          "@type": "CardSubType",
+          "@id": "/.well-known/genid/64e2d82335c1fefba315",
+          "reference": "ADVENTURER",
+          "id": "01HKAGPC92CGHANVSRSC8R8ES6",
+          "name": "Adventurer"
+        }
+      ],
+      "rarity": {
+        "@id": "/rarities/COMMON",
+        "@type": "Rarity",
+        "reference": "COMMON",
+        "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+        "name": "Common"
+      },
+      "cardProduct": {
+        "@id": "/card_products/01H1NW5YEN8B72T6CXPYDXV5CZ",
+        "@type": "CardProduct",
+        "reference": "B",
+        "name": "Booster"
+      },
+      "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_11/JPG/en_US/57757c194241d10245fe2877fd386070.jpg",
+      "latestAddition": null,
+      "inMyCollection": 0,
+      "inMyWantlist": false,
+      "assets": {
+        "WEB": [
+          "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_11/ALT_CORE_B_AX_11_C_WEB.jpg",
+          "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_11/ALT_CORE_B_AX_11_R_WEB.jpg",
+          "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_11/ALT_CORE_B_AX_11_U_WEB.jpg"
+        ]
+      },
+      "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_B_AX_11_C",
+      "id": "01HKAFJNJAK8M6VPA6ZGFRME93",
+      "mainFaction": {
+        "@id": "/factions/AX",
+        "@type": "Faction",
+        "reference": "AX",
+        "color": "#8c432a",
+        "id": "01GE7AC9XBG707G19F03A95TH1",
+        "name": "Axiom"
+      },
+      "name": "Amelia Earhart",
+      "elements": {
+        "MAIN_COST": "3",
+        "RECALL_COST": "1",
+        "OCEAN_POWER": "2",
+        "MOUNTAIN_POWER": "2",
+        "FOREST_POWER": "2"
+      },
+      "collectorNumberFormatted": "BTG-012-C-EN"
+    },
+    {
+      "@id": "/cards/ALT_CORE_B_AX_11_R1",
+      "@type": "Card",
+      "reference": "ALT_CORE_B_AX_11_R1",
+      "cardType": {
+        "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+        "@type": "CardType",
+        "reference": "CHARACTER",
+        "id": "01H19NWA92A4ERAC4ATMSZNASS",
+        "name": "Character"
+      },
+      "cardSubTypes": [
+        {
+          "@type": "CardSubType",
+          "@id": "/.well-known/genid/64e2d82335c1fefba315",
+          "reference": "ADVENTURER",
+          "id": "01HKAGPC92CGHANVSRSC8R8ES6",
+          "name": "Adventurer"
+        }
+      ],
+      "rarity": {
+        "@id": "/rarities/RARE",
+        "@type": "Rarity",
+        "reference": "RARE",
+        "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+        "name": "Rare"
+      },
+      "cardProduct": {
+        "@id": "/card_products/01H1NW5YEN8B72T6CXPYDXV5CZ",
+        "@type": "CardProduct",
+        "reference": "B",
+        "name": "Booster"
+      },
+      "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_11/JPG/en_US/5b395f4de20c210417afc908ecf6ee4c.jpg",
+      "latestAddition": null,
+      "inMyCollection": 0,
+      "inMyWantlist": false,
+      "assets": {
+        "WEB": [
+          "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_11/ALT_CORE_B_AX_11_C_WEB.jpg",
+          "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_11/ALT_CORE_B_AX_11_R_WEB.jpg",
+          "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_11/ALT_CORE_B_AX_11_U_WEB.jpg"
+        ]
+      },
+      "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_B_AX_11_R1",
+      "id": "01HKAFJNJBS9MFSE4Z3B7WPB3Y",
+      "mainFaction": {
+        "@id": "/factions/AX",
+        "@type": "Faction",
+        "reference": "AX",
+        "color": "#8c432a",
+        "id": "01GE7AC9XBG707G19F03A95TH1",
+        "name": "Axiom"
+      },
+      "name": "Amelia Earhart",
+      "elements": {
+        "OCEAN_POWER": "2",
+        "MAIN_COST": "3",
+        "RECALL_COST": "1",
+        "MOUNTAIN_POWER": "2",
+        "FOREST_POWER": "2",
+        "MAIN_EFFECT": "{H} I gain 1 boost."
+      },
+      "collectorNumberFormatted": "BTG-012-R-EN"
+    },
+    {
+      "@id": "/cards/ALT_CORE_B_AX_11_R2",
+      "@type": "Card",
+      "reference": "ALT_CORE_B_AX_11_R2",
+      "cardType": {
+        "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+        "@type": "CardType",
+        "reference": "CHARACTER",
+        "id": "01H19NWA92A4ERAC4ATMSZNASS",
+        "name": "Character"
+      },
+      "cardSubTypes": [
+        {
+          "@type": "CardSubType",
+          "@id": "/.well-known/genid/64e2d82335c1fefba315",
+          "reference": "ADVENTURER",
+          "id": "01HKAGPC92CGHANVSRSC8R8ES6",
+          "name": "Adventurer"
+        }
+      ],
+      "rarity": {
+        "@id": "/rarities/RARE",
+        "@type": "Rarity",
+        "reference": "RARE",
+        "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+        "name": "Rare"
+      },
+      "cardProduct": {
+        "@id": "/card_products/01H1NW5YEN8B72T6CXPYDXV5CZ",
+        "@type": "CardProduct",
+        "reference": "B",
+        "name": "Booster"
+      },
+      "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_11/JPG/en_US/b987694f1e17d4870272b444b7f090c5.jpg",
+      "latestAddition": null,
+      "inMyCollection": 0,
+      "inMyWantlist": false,
+      "assets": {
+        "WEB": [
+          "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_11/ALT_CORE_B_AX_11_C_WEB.jpg",
+          "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_11/ALT_CORE_B_AX_11_R_WEB.jpg",
+          "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_11/ALT_CORE_B_AX_11_U_WEB.jpg"
+        ]
+      },
+      "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_B_AX_11_R2",
+      "id": "01HKAFJNJCX621YSH6S8D06P9Z",
+      "mainFaction": {
+        "@id": "/factions/OR",
+        "@type": "Faction",
+        "reference": "OR",
+        "color": "#0f6593",
+        "id": "01GE7AC9X78DXSNKNB15KCF69X",
+        "name": "Ordis"
+      },
+      "name": "Amelia Earhart",
+      "elements": {
+        "MAIN_COST": "3",
+        "RECALL_COST": "1",
+        "OCEAN_POWER": "2",
+        "MOUNTAIN_POWER": "2",
+        "FOREST_POWER": "2",
+        "MAIN_EFFECT": "{H} I gain 1 boost."
+      },
+      "collectorNumberFormatted": "BTG-012-F-EN"
+    },
+    {
+      "@id": "/cards/ALT_CORE_B_AX_12_C",
+      "@type": "Card",
+      "reference": "ALT_CORE_B_AX_12_C",
+      "cardType": {
+        "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+        "@type": "CardType",
+        "reference": "CHARACTER",
+        "id": "01H19NWA92A4ERAC4ATMSZNASS",
+        "name": "Character"
+      },
+      "cardSubTypes": [
+        {
+          "@type": "CardSubType",
+          "@id": "/.well-known/genid/b18cdec7a88606a4e9ba",
+          "reference": "ENGINEER",
+          "id": "01HKAGPA9AS71JN0H9HQZTBNCD",
+          "name": "Engineer"
+        }
+      ],
+      "rarity": {
+        "@id": "/rarities/COMMON",
+        "@type": "Rarity",
+        "reference": "COMMON",
+        "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+        "name": "Common"
+      },
+      "cardProduct": {
+        "@id": "/card_products/01H1NW5YEN8B72T6CXPYDXV5CZ",
+        "@type": "CardProduct",
+        "reference": "B",
+        "name": "Booster"
+      },
+      "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_12/JPG/en_US/ba4616a6d4fc186c6924dcb4ec50ff91.jpg",
+      "latestAddition": null,
+      "inMyCollection": 0,
+      "inMyWantlist": false,
+      "assets": {
+        "WEB": [
+          "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_12/ALT_CORE_B_AX_12_C_WEB.jpg",
+          "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_12/ALT_CORE_B_AX_12_R_WEB.jpg",
+          "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_12/ALT_CORE_B_AX_12_U_WEB.jpg"
+        ]
+      },
+      "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_B_AX_12_C",
+      "id": "01HKAFJNJDMGENH07WWWP8CDAF",
+      "mainFaction": {
+        "@id": "/factions/AX",
+        "@type": "Faction",
+        "reference": "AX",
+        "color": "#8c432a",
+        "id": "01GE7AC9XBG707G19F03A95TH1",
+        "name": "Axiom"
+      },
+      "name": "Three Little Pigs",
+      "elements": {
+        "MAIN_COST": "3",
+        "RECALL_COST": "3",
+        "OCEAN_POWER": "3",
+        "MOUNTAIN_POWER": "3",
+        "FOREST_POWER": "3",
+        "MAIN_EFFECT": "{J} If you control two or more Landmarks, I gain 1 boost[]. (Cards in Reserve are not controlled. A boost is a +1/+1/+1 counter. Remove it when it leaves the Expedition zone.)"
+      },
+      "collectorNumberFormatted": "BTG-014-C-EN"
+    },
+    {
+      "@id": "/cards/ALT_CORE_B_AX_12_R1",
+      "@type": "Card",
+      "reference": "ALT_CORE_B_AX_12_R1",
+      "cardType": {
+        "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+        "@type": "CardType",
+        "reference": "CHARACTER",
+        "id": "01H19NWA92A4ERAC4ATMSZNASS",
+        "name": "Character"
+      },
+      "cardSubTypes": [
+        {
+          "@type": "CardSubType",
+          "@id": "/.well-known/genid/b18cdec7a88606a4e9ba",
+          "reference": "ENGINEER",
+          "id": "01HKAGPA9AS71JN0H9HQZTBNCD",
+          "name": "Engineer"
+        }
+      ],
+      "rarity": {
+        "@id": "/rarities/RARE",
+        "@type": "Rarity",
+        "reference": "RARE",
+        "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+        "name": "Rare"
+      },
+      "cardProduct": {
+        "@id": "/card_products/01H1NW5YEN8B72T6CXPYDXV5CZ",
+        "@type": "CardProduct",
+        "reference": "B",
+        "name": "Booster"
+      },
+      "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_12/JPG/en_US/ba4f5db97b78e2fbbf905230032e9c0e.jpg",
+      "latestAddition": null,
+      "inMyCollection": 0,
+      "inMyWantlist": false,
+      "assets": {
+        "WEB": [
+          "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_12/ALT_CORE_B_AX_12_C_WEB.jpg",
+          "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_12/ALT_CORE_B_AX_12_R_WEB.jpg",
+          "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_12/ALT_CORE_B_AX_12_U_WEB.jpg"
+        ]
+      },
+      "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_B_AX_12_R1",
+      "id": "01HKAFJNJFX7JX4VA9ZRPBAPGY",
+      "mainFaction": {
+        "@id": "/factions/AX",
+        "@type": "Faction",
+        "reference": "AX",
+        "color": "#8c432a",
+        "id": "01GE7AC9XBG707G19F03A95TH1",
+        "name": "Axiom"
+      },
+      "name": "Three Little Pigs",
+      "elements": {
+        "MAIN_COST": "3",
+        "RECALL_COST": "3",
+        "OCEAN_POWER": "3",
+        "MOUNTAIN_POWER": "3",
+        "FOREST_POWER": "3",
+        "MAIN_EFFECT": "{J} If you control two or more Landmarks, I gain 2 boosts[]. (Cards in Reserve are not controlled. A boost is a +1/+1/+1 counter. Remove it when it leaves the Expedition zone.)"
+      },
+      "collectorNumberFormatted": "BTG-014-R-EN"
+    },
+    {
+      "@id": "/cards/ALT_CORE_B_AX_12_R2",
+      "@type": "Card",
+      "reference": "ALT_CORE_B_AX_12_R2",
+      "cardType": {
+        "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+        "@type": "CardType",
+        "reference": "CHARACTER",
+        "id": "01H19NWA92A4ERAC4ATMSZNASS",
+        "name": "Character"
+      },
+      "cardSubTypes": [
+        {
+          "@type": "CardSubType",
+          "@id": "/.well-known/genid/b18cdec7a88606a4e9ba",
+          "reference": "ENGINEER",
+          "id": "01HKAGPA9AS71JN0H9HQZTBNCD",
+          "name": "Engineer"
+        }
+      ],
+      "rarity": {
+        "@id": "/rarities/RARE",
+        "@type": "Rarity",
+        "reference": "RARE",
+        "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+        "name": "Rare"
+      },
+      "cardProduct": {
+        "@id": "/card_products/01H1NW5YEN8B72T6CXPYDXV5CZ",
+        "@type": "CardProduct",
+        "reference": "B",
+        "name": "Booster"
+      },
+      "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_12/JPG/en_US/60e9d8dee9aab6e8ae886aaf154dda10.jpg",
+      "latestAddition": null,
+      "inMyCollection": 0,
+      "inMyWantlist": false,
+      "assets": {
+        "WEB": [
+          "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_12/ALT_CORE_B_AX_12_C_WEB.jpg",
+          "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_12/ALT_CORE_B_AX_12_R_WEB.jpg",
+          "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_12/ALT_CORE_B_AX_12_U_WEB.jpg"
+        ]
+      },
+      "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_B_AX_12_R2",
+      "id": "01HKAFJNJG3SSW7KG1MBHYJP90",
+      "mainFaction": {
+        "@id": "/factions/BR",
+        "@type": "Faction",
+        "reference": "BR",
+        "color": "#c32637",
+        "id": "01GE7AC9WY6PK56RADXXD6P1T4",
+        "name": "Bravos"
+      },
+      "name": "Three Little Pigs",
+      "elements": {
+        "FOREST_POWER": "3",
+        "MAIN_COST": "3",
+        "RECALL_COST": "3",
+        "OCEAN_POWER": "3",
+        "MOUNTAIN_POWER": "3",
+        "MAIN_EFFECT": "{J} If you control one or more Landmarks, I gain 1 boost."
+      },
+      "collectorNumberFormatted": "BTG-014-F-EN"
+    },
+    {
+      "@id": "/cards/ALT_CORE_B_AX_13_C",
+      "@type": "Card",
+      "reference": "ALT_CORE_B_AX_13_C",
+      "cardType": {
+        "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+        "@type": "CardType",
+        "reference": "CHARACTER",
+        "id": "01H19NWA92A4ERAC4ATMSZNASS",
+        "name": "Character"
+      },
+      "cardSubTypes": [
+        {
+          "@type": "CardSubType",
+          "@id": "/.well-known/genid/b18cdec7a88606a4e9ba",
+          "reference": "ENGINEER",
+          "id": "01HKAGPA9AS71JN0H9HQZTBNCD",
+          "name": "Engineer"
+        }
+      ],
+      "rarity": {
+        "@id": "/rarities/COMMON",
+        "@type": "Rarity",
+        "reference": "COMMON",
+        "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+        "name": "Common"
+      },
+      "cardProduct": {
+        "@id": "/card_products/01H1NW5YEN8B72T6CXPYDXV5CZ",
+        "@type": "CardProduct",
+        "reference": "B",
+        "name": "Booster"
+      },
+      "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_13/JPG/en_US/7104951bbacd35e201ac32a15084d66c.jpg",
+      "latestAddition": null,
+      "inMyCollection": 0,
+      "inMyWantlist": false,
+      "assets": {
+        "WEB": [
+          "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_13/ALT_CORE_B_AX_13_C_WEB.jpg",
+          "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_13/ALT_CORE_B_AX_13_R_WEB.jpg",
+          "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_13/ALT_CORE_B_AX_13_U_WEB.jpg"
+        ]
+      },
+      "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_B_AX_13_C",
+      "id": "01HKAFJNJHN45HVQ5DKR30D845",
+      "mainFaction": {
+        "@id": "/factions/AX",
+        "@type": "Faction",
+        "reference": "AX",
+        "color": "#8c432a",
+        "id": "01GE7AC9XBG707G19F03A95TH1",
+        "name": "Axiom"
+      },
+      "name": "Ada Lovelace",
+      "elements": {
+        "MAIN_COST": "2",
+        "RECALL_COST": "2",
+        "OCEAN_POWER": "1",
+        "MOUNTAIN_POWER": "3",
+        "FOREST_POWER": "1",
+        "MAIN_EFFECT": "{R} You may put a card from your hand in Reserve. If it's a Permanent, draw a card."
+      },
+      "collectorNumberFormatted": "BTG-006-C-EN"
+    },
+    {
+      "@id": "/cards/ALT_CORE_B_AX_13_R1",
+      "@type": "Card",
+      "reference": "ALT_CORE_B_AX_13_R1",
+      "cardType": {
+        "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+        "@type": "CardType",
+        "reference": "CHARACTER",
+        "id": "01H19NWA92A4ERAC4ATMSZNASS",
+        "name": "Character"
+      },
+      "cardSubTypes": [
+        {
+          "@type": "CardSubType",
+          "@id": "/.well-known/genid/b18cdec7a88606a4e9ba",
+          "reference": "ENGINEER",
+          "id": "01HKAGPA9AS71JN0H9HQZTBNCD",
+          "name": "Engineer"
+        }
+      ],
+      "rarity": {
+        "@id": "/rarities/RARE",
+        "@type": "Rarity",
+        "reference": "RARE",
+        "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+        "name": "Rare"
+      },
+      "cardProduct": {
+        "@id": "/card_products/01H1NW5YEN8B72T6CXPYDXV5CZ",
+        "@type": "CardProduct",
+        "reference": "B",
+        "name": "Booster"
+      },
+      "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_13/JPG/en_US/019182f51d9bacc7cab4355f30889d32.jpg",
+      "latestAddition": null,
+      "inMyCollection": 0,
+      "inMyWantlist": false,
+      "assets": {
+        "WEB": [
+          "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_13/ALT_CORE_B_AX_13_C_WEB.jpg",
+          "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_13/ALT_CORE_B_AX_13_R_WEB.jpg",
+          "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_13/ALT_CORE_B_AX_13_U_WEB.jpg"
+        ]
+      },
+      "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_B_AX_13_R1",
+      "id": "01HKAFJNJJSEKYBZ5X1Y2H0PCJ",
+      "mainFaction": {
+        "@id": "/factions/AX",
+        "@type": "Faction",
+        "reference": "AX",
+        "color": "#8c432a",
+        "id": "01GE7AC9XBG707G19F03A95TH1",
+        "name": "Axiom"
+      },
+      "name": "Ada Lovelace",
+      "elements": {
+        "MAIN_COST": "2",
+        "RECALL_COST": "2",
+        "OCEAN_POWER": "1",
+        "MOUNTAIN_POWER": "2",
+        "FOREST_POWER": "1",
+        "MAIN_EFFECT": "{R} You may put a card from your hand in Reserve to draw a card."
+      },
+      "collectorNumberFormatted": "BTG-006-R-EN"
+    },
+    {
+      "@id": "/cards/ALT_CORE_B_AX_13_R2",
+      "@type": "Card",
+      "reference": "ALT_CORE_B_AX_13_R2",
+      "cardType": {
+        "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+        "@type": "CardType",
+        "reference": "CHARACTER",
+        "id": "01H19NWA92A4ERAC4ATMSZNASS",
+        "name": "Character"
+      },
+      "cardSubTypes": [
+        {
+          "@type": "CardSubType",
+          "@id": "/.well-known/genid/b18cdec7a88606a4e9ba",
+          "reference": "ENGINEER",
+          "id": "01HKAGPA9AS71JN0H9HQZTBNCD",
+          "name": "Engineer"
+        }
+      ],
+      "rarity": {
+        "@id": "/rarities/RARE",
+        "@type": "Rarity",
+        "reference": "RARE",
+        "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+        "name": "Rare"
+      },
+      "cardProduct": {
+        "@id": "/card_products/01H1NW5YEN8B72T6CXPYDXV5CZ",
+        "@type": "CardProduct",
+        "reference": "B",
+        "name": "Booster"
+      },
+      "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_13/JPG/en_US/5ae824b1f9780204fab4b2b9c1d3a5b2.jpg",
+      "latestAddition": null,
+      "inMyCollection": 0,
+      "inMyWantlist": false,
+      "assets": {
+        "WEB": [
+          "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_13/ALT_CORE_B_AX_13_C_WEB.jpg",
+          "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_13/ALT_CORE_B_AX_13_R_WEB.jpg",
+          "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_13/ALT_CORE_B_AX_13_U_WEB.jpg"
+        ]
+      },
+      "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_B_AX_13_R2",
+      "id": "01HKAFJNJMQAKKVTPCJX665GZ5",
+      "mainFaction": {
+        "@id": "/factions/YZ",
+        "@type": "Faction",
+        "reference": "YZ",
+        "color": "#764891",
+        "id": "01GE7AC9WEQKW1Y1BF8SCY7459",
+        "name": "Yzmir"
+      },
+      "name": "Ada Lovelace",
+      "elements": {
+        "MAIN_COST": "2",
+        "RECALL_COST": "2",
+        "OCEAN_POWER": "1",
+        "MOUNTAIN_POWER": "3",
+        "FOREST_POWER": "1",
+        "MAIN_EFFECT": "{R} You may put a card from your hand in Reserve. If it's a Spell, draw a card."
+      },
+      "collectorNumberFormatted": "BTG-006-F-EN"
+    },
+    {
+      "@id": "/cards/ALT_CORE_B_AX_14_C",
+      "@type": "Card",
+      "reference": "ALT_CORE_B_AX_14_C",
+      "cardType": {
+        "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+        "@type": "CardType",
+        "reference": "CHARACTER",
+        "id": "01H19NWA92A4ERAC4ATMSZNASS",
+        "name": "Character"
+      },
+      "cardSubTypes": [
+        {
+          "@type": "CardSubType",
+          "@id": "/.well-known/genid/e80caa26de95fd0a3309",
+          "reference": "ROBOT",
+          "id": "01HKAGPDNDJM76PRKTBB98Q0ZM",
+          "name": "Robot"
+        }
+      ],
+      "rarity": {
+        "@id": "/rarities/COMMON",
+        "@type": "Rarity",
+        "reference": "COMMON",
+        "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+        "name": "Common"
+      },
+      "cardProduct": {
+        "@id": "/card_products/01H1NW5YEN8B72T6CXPYDXV5CZ",
+        "@type": "CardProduct",
+        "reference": "B",
+        "name": "Booster"
+      },
+      "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_14/JPG/en_US/1e5ff0c6f05a5204317d052a48d7b2b7.jpg",
+      "latestAddition": null,
+      "inMyCollection": 0,
+      "inMyWantlist": false,
+      "assets": {
+        "WEB": [
+          "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_14/ALT_CORE_B_AX_14_C_WEB.jpg",
+          "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_14/ALT_CORE_B_AX_14_R_WEB.jpg",
+          "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_14/ALT_CORE_B_AX_14_U_WEB.jpg"
+        ]
+      },
+      "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_B_AX_14_C",
+      "id": "01HKAFJNJNQQ5Q7ECZ7VMP6AM2",
+      "mainFaction": {
+        "@id": "/factions/AX",
+        "@type": "Faction",
+        "reference": "AX",
+        "color": "#8c432a",
+        "id": "01GE7AC9XBG707G19F03A95TH1",
+        "name": "Axiom"
+      },
+      "name": "Coppélia",
+      "elements": {
+        "MAIN_COST": "2",
+        "RECALL_COST": "2",
+        "OCEAN_POWER": "0",
+        "MOUNTAIN_POWER": "2",
+        "FOREST_POWER": "2",
+        "MAIN_EFFECT": "When I go to Reserve from your hand — You may play me for free and I gain [[Asleep]]. (During Dusk, ignore my statistics. During Rest, I don't go to Reserve and I lose Asleep.)"
+      },
+      "collectorNumberFormatted": "BTG-007-C-EN"
+    },
+    {
+      "@id": "/cards/ALT_CORE_B_AX_14_R1",
+      "@type": "Card",
+      "reference": "ALT_CORE_B_AX_14_R1",
+      "cardType": {
+        "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+        "@type": "CardType",
+        "reference": "CHARACTER",
+        "id": "01H19NWA92A4ERAC4ATMSZNASS",
+        "name": "Character"
+      },
+      "cardSubTypes": [
+        {
+          "@type": "CardSubType",
+          "@id": "/.well-known/genid/e80caa26de95fd0a3309",
+          "reference": "ROBOT",
+          "id": "01HKAGPDNDJM76PRKTBB98Q0ZM",
+          "name": "Robot"
+        }
+      ],
+      "rarity": {
+        "@id": "/rarities/RARE",
+        "@type": "Rarity",
+        "reference": "RARE",
+        "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+        "name": "Rare"
+      },
+      "cardProduct": {
+        "@id": "/card_products/01H1NW5YEN8B72T6CXPYDXV5CZ",
+        "@type": "CardProduct",
+        "reference": "B",
+        "name": "Booster"
+      },
+      "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_14/JPG/en_US/46e6930c1d21b95dcb66852e3323e5ed.jpg",
+      "latestAddition": null,
+      "inMyCollection": 0,
+      "inMyWantlist": false,
+      "assets": {
+        "WEB": [
+          "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_14/ALT_CORE_B_AX_14_C_WEB.jpg",
+          "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_14/ALT_CORE_B_AX_14_R_WEB.jpg",
+          "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_14/ALT_CORE_B_AX_14_U_WEB.jpg"
+        ]
+      },
+      "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_B_AX_14_R1",
+      "id": "01HKAFJNJP3CT60QQ2E3CPKZER",
+      "mainFaction": {
+        "@id": "/factions/AX",
+        "@type": "Faction",
+        "reference": "AX",
+        "color": "#8c432a",
+        "id": "01GE7AC9XBG707G19F03A95TH1",
+        "name": "Axiom"
+      },
+      "name": "Coppélia",
+      "elements": {
+        "MAIN_COST": "2",
+        "RECALL_COST": "2",
+        "OCEAN_POWER": "0",
+        "MOUNTAIN_POWER": "3",
+        "FOREST_POWER": "3",
+        "MAIN_EFFECT": "When I go to Reserve from your hand — You may play me for free and I gain [[Asleep]]. (During Dusk, ignore my statistics. During Rest, I don't go to Reserve and I lose Asleep.)"
+      },
+      "collectorNumberFormatted": "BTG-007-R-EN"
+    },
+    {
+      "@id": "/cards/ALT_CORE_B_AX_14_R2",
+      "@type": "Card",
+      "reference": "ALT_CORE_B_AX_14_R2",
+      "cardType": {
+        "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+        "@type": "CardType",
+        "reference": "CHARACTER",
+        "id": "01H19NWA92A4ERAC4ATMSZNASS",
+        "name": "Character"
+      },
+      "cardSubTypes": [
+        {
+          "@type": "CardSubType",
+          "@id": "/.well-known/genid/e80caa26de95fd0a3309",
+          "reference": "ROBOT",
+          "id": "01HKAGPDNDJM76PRKTBB98Q0ZM",
+          "name": "Robot"
+        }
+      ],
+      "rarity": {
+        "@id": "/rarities/RARE",
+        "@type": "Rarity",
+        "reference": "RARE",
+        "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+        "name": "Rare"
+      },
+      "cardProduct": {
+        "@id": "/card_products/01H1NW5YEN8B72T6CXPYDXV5CZ",
+        "@type": "CardProduct",
+        "reference": "B",
+        "name": "Booster"
+      },
+      "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_14/JPG/en_US/6b016d0df1222728c5cc9f343019413e.jpg",
+      "latestAddition": null,
+      "inMyCollection": 0,
+      "inMyWantlist": false,
+      "assets": {
+        "WEB": [
+          "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_14/ALT_CORE_B_AX_14_C_WEB.jpg",
+          "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_14/ALT_CORE_B_AX_14_R_WEB.jpg",
+          "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_14/ALT_CORE_B_AX_14_U_WEB.jpg"
+        ]
+      },
+      "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_B_AX_14_R2",
+      "id": "01HKAFJNJRRH63R8VPC1DV2AWJ",
+      "mainFaction": {
+        "@id": "/factions/MU",
+        "@type": "Faction",
+        "reference": "MU",
+        "color": "#3d6b42",
+        "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+        "name": "Muna"
+      },
+      "name": "Coppélia",
+      "elements": {
+        "MAIN_COST": "2",
+        "RECALL_COST": "2",
+        "OCEAN_POWER": "0",
+        "MOUNTAIN_POWER": "3",
+        "FOREST_POWER": "3",
+        "MAIN_EFFECT": "When I go to Reserve from your hand — You may play me for free and I gain [[Asleep]]. (During Dusk, ignore my statistics. During Rest, I don't go to Reserve and I lose Asleep.)"
+      },
+      "collectorNumberFormatted": "BTG-007-F-EN"
+    }
+  ],
+  "hydra:view": {
+    "@id": "/cards?itemsPerPage=36&page=1",
+    "@type": "hydra:PartialCollectionView",
+    "hydra:first": "/cards?itemsPerPage=36&page=1",
+    "hydra:last": "/cards?itemsPerPage=36&page=13",
+    "hydra:next": "/cards?itemsPerPage=36&page=2"
+  },
+  "hydra:search": {
+    "@type": "hydra:IriTemplate",
+    "hydra:template": "/cards{?id,id[],reference,reference[],factions,factions[],factions.reference,factions.reference[],cardType,cardType[],cardType.reference,cardType.reference[],cardSubTypes,cardSubTypes[],cardSet,cardSet[],cardSet.reference,cardSet.reference[],rarity,rarity[],rarity.reference,rarity.reference[],translations.name,cardProduct.reference,cardProduct.reference[],order[reference],order[translations.name],order[cardType.reference],order[cardSubType.reference],order[parent.reference],order[cardSet.reference],order[rarity.sequence],order[factions.reference],order[cardUserListCards.createdAt],mainCost,recallCost,mountainPower,oceanPower,forestPower,mainEffect,echoEffect,order[mainCost],order[recallCost],order[collectionLatestAdded],cardList.name,cardList.order,collection}",
+    "hydra:variableRepresentation": "BasicRepresentation",
+    "hydra:mapping": [
+      {
+        "@type": "IriTemplateMapping",
+        "variable": "id",
+        "property": "id",
+        "required": false
+      },
+      {
+        "@type": "IriTemplateMapping",
+        "variable": "id[]",
+        "property": "id",
+        "required": false
+      },
+      {
+        "@type": "IriTemplateMapping",
+        "variable": "reference",
+        "property": "reference",
+        "required": false
+      },
+      {
+        "@type": "IriTemplateMapping",
+        "variable": "reference[]",
+        "property": "reference",
+        "required": false
+      },
+      {
+        "@type": "IriTemplateMapping",
+        "variable": "factions",
+        "property": "factions",
+        "required": false
+      },
+      {
+        "@type": "IriTemplateMapping",
+        "variable": "factions[]",
+        "property": "factions",
+        "required": false
+      },
+      {
+        "@type": "IriTemplateMapping",
+        "variable": "factions.reference",
+        "property": "factions.reference",
+        "required": false
+      },
+      {
+        "@type": "IriTemplateMapping",
+        "variable": "factions.reference[]",
+        "property": "factions.reference",
+        "required": false
+      },
+      {
+        "@type": "IriTemplateMapping",
+        "variable": "cardType",
+        "property": "cardType",
+        "required": false
+      },
+      {
+        "@type": "IriTemplateMapping",
+        "variable": "cardType[]",
+        "property": "cardType",
+        "required": false
+      },
+      {
+        "@type": "IriTemplateMapping",
+        "variable": "cardType.reference",
+        "property": "cardType.reference",
+        "required": false
+      },
+      {
+        "@type": "IriTemplateMapping",
+        "variable": "cardType.reference[]",
+        "property": "cardType.reference",
+        "required": false
+      },
+      {
+        "@type": "IriTemplateMapping",
+        "variable": "cardSubTypes",
+        "property": "cardSubTypes",
+        "required": false
+      },
+      {
+        "@type": "IriTemplateMapping",
+        "variable": "cardSubTypes[]",
+        "property": "cardSubTypes",
+        "required": false
+      },
+      {
+        "@type": "IriTemplateMapping",
+        "variable": "cardSet",
+        "property": "cardSet",
+        "required": false
+      },
+      {
+        "@type": "IriTemplateMapping",
+        "variable": "cardSet[]",
+        "property": "cardSet",
+        "required": false
+      },
+      {
+        "@type": "IriTemplateMapping",
+        "variable": "cardSet.reference",
+        "property": "cardSet.reference",
+        "required": false
+      },
+      {
+        "@type": "IriTemplateMapping",
+        "variable": "cardSet.reference[]",
+        "property": "cardSet.reference",
+        "required": false
+      },
+      {
+        "@type": "IriTemplateMapping",
+        "variable": "rarity",
+        "property": "rarity",
+        "required": false
+      },
+      {
+        "@type": "IriTemplateMapping",
+        "variable": "rarity[]",
+        "property": "rarity",
+        "required": false
+      },
+      {
+        "@type": "IriTemplateMapping",
+        "variable": "rarity.reference",
+        "property": "rarity.reference",
+        "required": false
+      },
+      {
+        "@type": "IriTemplateMapping",
+        "variable": "rarity.reference[]",
+        "property": "rarity.reference",
+        "required": false
+      },
+      {
+        "@type": "IriTemplateMapping",
+        "variable": "translations.name",
+        "property": "translations.name",
+        "required": false
+      },
+      {
+        "@type": "IriTemplateMapping",
+        "variable": "cardProduct.reference",
+        "property": "cardProduct.reference",
+        "required": false
+      },
+      {
+        "@type": "IriTemplateMapping",
+        "variable": "cardProduct.reference[]",
+        "property": "cardProduct.reference",
+        "required": false
+      },
+      {
+        "@type": "IriTemplateMapping",
+        "variable": "order[reference]",
+        "property": "reference",
+        "required": false
+      },
+      {
+        "@type": "IriTemplateMapping",
+        "variable": "order[translations.name]",
+        "property": "translations.name",
+        "required": false
+      },
+      {
+        "@type": "IriTemplateMapping",
+        "variable": "order[cardType.reference]",
+        "property": "cardType.reference",
+        "required": false
+      },
+      {
+        "@type": "IriTemplateMapping",
+        "variable": "order[cardSubType.reference]",
+        "property": "cardSubType.reference",
+        "required": false
+      },
+      {
+        "@type": "IriTemplateMapping",
+        "variable": "order[parent.reference]",
+        "property": "parent.reference",
+        "required": false
+      },
+      {
+        "@type": "IriTemplateMapping",
+        "variable": "order[cardSet.reference]",
+        "property": "cardSet.reference",
+        "required": false
+      },
+      {
+        "@type": "IriTemplateMapping",
+        "variable": "order[rarity.sequence]",
+        "property": "rarity.sequence",
+        "required": false
+      },
+      {
+        "@type": "IriTemplateMapping",
+        "variable": "order[factions.reference]",
+        "property": "factions.reference",
+        "required": false
+      },
+      {
+        "@type": "IriTemplateMapping",
+        "variable": "order[cardUserListCards.createdAt]",
+        "property": "cardUserListCards.createdAt",
+        "required": false
+      },
+      {
+        "@type": "IriTemplateMapping",
+        "variable": "mainCost",
+        "property": "mainCost",
+        "required": false
+      },
+      {
+        "@type": "IriTemplateMapping",
+        "variable": "recallCost",
+        "property": "recallCost",
+        "required": false
+      },
+      {
+        "@type": "IriTemplateMapping",
+        "variable": "mountainPower",
+        "property": "mountainPower",
+        "required": false
+      },
+      {
+        "@type": "IriTemplateMapping",
+        "variable": "oceanPower",
+        "property": "oceanPower",
+        "required": false
+      },
+      {
+        "@type": "IriTemplateMapping",
+        "variable": "forestPower",
+        "property": "forestPower",
+        "required": false
+      },
+      {
+        "@type": "IriTemplateMapping",
+        "variable": "mainEffect",
+        "property": "mainEffect",
+        "required": false
+      },
+      {
+        "@type": "IriTemplateMapping",
+        "variable": "echoEffect",
+        "property": "echoEffect",
+        "required": false
+      },
+      {
+        "@type": "IriTemplateMapping",
+        "variable": "order[mainCost]",
+        "property": "order[mainCost]",
+        "required": false
+      },
+      {
+        "@type": "IriTemplateMapping",
+        "variable": "order[recallCost]",
+        "property": "order[recallCost]",
+        "required": false
+      },
+      {
+        "@type": "IriTemplateMapping",
+        "variable": "order[collectionLatestAdded]",
+        "property": "order[collectionLatestAdded]",
+        "required": false
+      },
+      {
+        "@type": "IriTemplateMapping",
+        "variable": "cardList.name",
+        "property": "cardList.name",
+        "required": false
+      },
+      {
+        "@type": "IriTemplateMapping",
+        "variable": "cardList.order",
+        "property": "cardList.order",
+        "required": false
+      },
+      {
+        "@type": "IriTemplateMapping",
+        "variable": "collection",
+        "property": "collection",
+        "required": false
+      }
+    ]
+  }
+}

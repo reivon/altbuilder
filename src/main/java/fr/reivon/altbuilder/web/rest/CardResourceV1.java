@@ -3,8 +3,9 @@ package fr.reivon.altbuilder.web.rest;
 import fr.reivon.altbuilder.service.CardService;
 import fr.reivon.altbuilder.service.DeckService;
 import fr.reivon.altbuilder.service.TestServiceToDelete;
-import fr.reivon.altbuilder.web.rest.dto.CardDto;
-import fr.reivon.altbuilder.web.rest.dto.DeckDto;
+import fr.reivon.altbuilder.web.consumers.altered.AlteredConsumers;
+import fr.reivon.altbuilder.web.rest.dto.card.CardDto;
+import fr.reivon.altbuilder.web.rest.dto.deck.DeckDto;
 import fr.reivon.altbuilder.web.rest.mapper.CardMapper;
 import fr.reivon.altbuilder.web.rest.mapper.DeckMapper;
 import org.slf4j.Logger;
@@ -14,6 +15,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
+import javax.net.ssl.SSLException;
 import java.util.List;
 
 @RestController
@@ -28,26 +30,23 @@ public class CardResourceV1 {
     private final TestServiceToDelete testServiceToDelete;
     private final DeckMapper deckMapper;
     private final DeckService deckService;
+    private final AlteredConsumers alteredConsumers;
 
-    public CardResourceV1(CardService cardService, CardMapper cardMapper, TestServiceToDelete testServiceToDelete, DeckMapper deckMapper, DeckService deckService) {
+    public CardResourceV1(CardService cardService, CardMapper cardMapper, TestServiceToDelete testServiceToDelete, DeckMapper deckMapper, DeckService deckService, AlteredConsumers alteredConsumers) {
         this.cardService = cardService;
         this.cardMapper = cardMapper;
         this.testServiceToDelete = testServiceToDelete;
         this.deckMapper = deckMapper;
         this.deckService = deckService;
+        this.alteredConsumers = alteredConsumers;
     }
 
     @GetMapping("/test")
     @ResponseBody
-    public List<CardDto> saveTestDeck() {
-        testServiceToDelete.initDB();
+    public List<CardDto> saveTestDeck() throws SSLException {
+        //testServiceToDelete.initDB();
+        alteredConsumers.getAllCard();
         return cardMapper.cardToCardDto(cardService.getAll());
-    }
-
-    @GetMapping("/testDeck")
-    @ResponseBody
-    public List<DeckDto> getTestDeck() {
-        return deckMapper.deckToDeckDto(deckService.getAll());
     }
 
 }

@@ -1,6 +1,6 @@
-package fr.reivon.altbuilder.web.rest.dto;
+package fr.reivon.altbuilder.web.rest.dto.deck;
 
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import fr.reivon.altbuilder.web.rest.dto.card.CardDto;
 import lombok.*;
 import lombok.extern.jackson.Jacksonized;
 

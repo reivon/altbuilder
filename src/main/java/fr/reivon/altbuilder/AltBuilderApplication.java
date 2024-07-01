@@ -1,13 +1,11 @@
 package fr.reivon.altbuilder;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import fr.reivon.altbuilder.config.ProjectConfiguration;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.context.properties.EnableConfigurationProperties;
 
-import java.util.Arrays;
-import java.util.Collection;
-
+@EnableConfigurationProperties({ProjectConfiguration.class})
 @SpringBootApplication
 public class AltBuilderApplication {
 
@@ -18,17 +16,14 @@ public class AltBuilderApplication {
 	 * Un peu d'angular sur un outil de supervision
 	 */
 
-	private static final Logger log = LoggerFactory.getLogger(AltBuilderApplication.class);
-
-
 	public static void main(String[] args) {
 		SpringApplication.run(AltBuilderApplication.class, args);
 	}
 
-	/**
-	 * https://docs.spring.io/spring-boot/how-to/properties-and-configuration.html
-	 * Spring profiles can be configured with a program arguments --spring.profiles.active=your-active-profile
-	 */
+//	/**
+//	 * https://docs.spring.io/spring-boot/how-to/properties-and-configuration.html
+//	 * Spring profiles can be configured with a program arguments --spring.profiles.active=your-active-profile
+//	 */
 //	@PostConstruct
 //	public void initApplication() {
 //		if (log.isInfoEnabled()) {

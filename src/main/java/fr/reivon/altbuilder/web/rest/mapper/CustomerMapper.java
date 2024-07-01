@@ -1,7 +1,7 @@
 package fr.reivon.altbuilder.web.rest.mapper;
 
 import fr.reivon.altbuilder.domain.user.Customer;
-import fr.reivon.altbuilder.web.rest.dto.CustomerDto;
+import fr.reivon.altbuilder.web.rest.dto.customer.CustomerDto;
 import org.mapstruct.Mapper;
 import org.mapstruct.factory.Mappers;
 

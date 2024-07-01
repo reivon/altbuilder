@@ -1,7 +1,6 @@
 
 ### init bdd with some card, only for test, deleted soon
 GET http://localhost:8080/v1/card/test
-Authorization: Bearer {{auth_token}}
 Accept: application/json
 
 ### init bdd with a deck, only for primary test, deleted soon

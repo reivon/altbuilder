@@ -1,6 +1,5 @@
-package fr.reivon.altbuilder.web.rest.dto;
+package fr.reivon.altbuilder.web.rest.dto.card;
 
-import com.fasterxml.jackson.annotation.JsonManagedReference;
 import fr.reivon.altbuilder.domain.CardType;
 import fr.reivon.altbuilder.domain.Faction;
 import fr.reivon.altbuilder.domain.Rarity;

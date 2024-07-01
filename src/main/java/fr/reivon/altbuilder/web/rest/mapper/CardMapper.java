@@ -1,7 +1,7 @@
 package fr.reivon.altbuilder.web.rest.mapper;
 
 import fr.reivon.altbuilder.domain.card.Card;
-import fr.reivon.altbuilder.web.rest.dto.CardDto;
+import fr.reivon.altbuilder.web.rest.dto.card.CardDto;
 import org.mapstruct.Mapper;
 import org.mapstruct.factory.Mappers;
 

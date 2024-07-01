@@ -1,11 +1,10 @@
 package fr.reivon.altbuilder.web.rest.mapper;
 
 import fr.reivon.altbuilder.domain.deck.Deck;
-import fr.reivon.altbuilder.web.rest.dto.DeckDto;
+import fr.reivon.altbuilder.web.rest.dto.deck.DeckDto;
 import org.mapstruct.AfterMapping;
 import org.mapstruct.Mapper;
 import org.mapstruct.MappingTarget;
-import org.mapstruct.factory.Mappers;
 
 import java.util.List;
 

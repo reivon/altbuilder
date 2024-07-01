@@ -1,4 +1,4 @@
-package fr.reivon.altbuilder.web.rest.dto;
+package fr.reivon.altbuilder.web.rest.dto.customer;
 
 import lombok.*;
 import lombok.extern.jackson.Jacksonized;

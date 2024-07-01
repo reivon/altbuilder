@@ -1,4 +1,4 @@
-package fr.reivon.altbuilder.web.rest.dto;
+package fr.reivon.altbuilder.web.rest.dto.card;
 
 import lombok.*;
 import lombok.extern.jackson.Jacksonized;
@@ -9,7 +9,7 @@ import lombok.extern.jackson.Jacksonized;
 @Getter
 @Setter
 @Jacksonized
-public class CardSubTypeDto {
+public class EditionDto {
 
     Long id;
     String nameVo;
