@@ -43,4 +43,13 @@ public class CustomerResourceV1 {
         return null;
     }
 
+    @PostMapping("/logout")
+    public void logout() {
+        jwtService.logout();
+    }
+
+    // TODO : manage a refresh token system : https://www.youtube.com/watch?v=KoBGERCIXag
+    // TODO : manage an update password : https://www.youtube.com/watch?v=gFu0yoAlJDA
+    // TODO : manage role and permission : https://www.youtube.com/watch?v=CHrwipNMiY4
+
 }

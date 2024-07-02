@@ -9,6 +9,7 @@ Content-Type: application/json
   "email": "reivon@gmail.com"
 }
 
+
 ### Login the user "reivon@gmail.com"
 POST http://localhost:8080/v1/customer/login
 Content-Type: application/json
@@ -19,3 +20,12 @@ Content-Type: application/json
 }
 
 > {% client.global.set("auth_token", response.body.bearer); %}
+
+
+### Logout the current user
+POST http://localhost:8080/v1/customer/logout
+Authorization: Bearer {{auth_token}}
+Content-Type: application/json
+
+> {% client.global.set("auth_token", ""); %}
+

@@ -24,10 +24,6 @@ public class CardService {
         return cardRepository.count();
     }
 
-    public Card getCard(String alteredId) {
-        return cardRepository.findByAlteredId(alteredId);
-    }
-
     public void saveOrUpdate(List<ConsumerCard> cards) {
         // TODO : save cards
     }

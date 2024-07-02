@@ -1,6 +1,7 @@
 package fr.reivon.altbuilder.security;
 
 import fr.reivon.altbuilder.domain.user.Customer;
+import fr.reivon.altbuilder.domain.user.Jwt;
 import fr.reivon.altbuilder.service.CustomerService;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
@@ -27,20 +28,27 @@ public class JwtFilter extends OncePerRequestFilter {
     @Override
     protected void doFilterInternal(HttpServletRequest request, HttpServletResponse response, FilterChain filterChain) throws ServletException, IOException {
         String username = null;
+        Jwt databaseJwt = null;
         boolean isTokenExpired = true;
 
         String authorization = request.getHeader("Authorization");
         if (authorization != null && authorization.startsWith("Bearer ")) {
             // get the token, we remove the "Bearer " start string
             String token = authorization.substring(7);
+            databaseJwt = jwtService.tokenByValue(token);
             isTokenExpired = jwtService.isTokenExpired(token);
             username = jwtService.extractUsername(token);
         }
 
-        // We check the expiration, the username
+        // We check the expiration,
+        // if the username is the good one in BDD
         // but also if we are not already auth in the context
-        if (!isTokenExpired && username != null && SecurityContextHolder.getContext().getAuthentication() == null) {
+        if (!isTokenExpired
+                && databaseJwt.getCustomer().getEmail().equals(username)
+                && SecurityContextHolder.getContext().getAuthentication() == null) {
+            // We retrieve the customer entity
             Customer customer = customerService.loadUserByUsername(username);
+            // We use a authToken by username and password
             UsernamePasswordAuthenticationToken authenticationToken = new UsernamePasswordAuthenticationToken(customer, null, customer.getAuthorities());
             SecurityContextHolder.getContext().setAuthentication(authenticationToken);
         }

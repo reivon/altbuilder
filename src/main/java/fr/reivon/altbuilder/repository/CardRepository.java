@@ -11,5 +11,4 @@ public interface CardRepository extends CrudRepository<Card, Long> {
     @Query("select c from Card c")
     List<Card> getAll();
 
-    Card findByAlteredId(String alteredId);
 }

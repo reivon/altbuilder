@@ -20,10 +20,7 @@ import java.util.Objects;
 public class Card {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    Long id;
-
-    String alteredId;
+    String id;
 
     Faction faction;
     Rarity rarity;
@@ -57,7 +54,6 @@ public class Card {
         if (this == o) return true;
         if (!(o instanceof Card card)) return false;
         return Objects.equals(id, card.id)
-                && Objects.equals(alteredId, card.alteredId)
                 && faction == card.faction
                 && rarity == card.rarity
                 && cardType == card.cardType
@@ -76,14 +72,13 @@ public class Card {
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, alteredId, faction, rarity, cardType, costHand, costReserve, nameVo, nameVf, textVo, textVf, flavorVo, flavorVf, forestPower, mountainPower, waterPower);
+        return Objects.hash(id, faction, rarity, cardType, costHand, costReserve, nameVo, nameVf, textVo, textVf, flavorVo, flavorVf, forestPower, mountainPower, waterPower);
     }
 
     @Override
     public String toString() {
         return "Card{" +
-                "id=" + id +
-                ", alteredId='" + alteredId + '\'' +
+                ", id='" + id + '\'' +
                 ", faction=" + faction +
                 ", rarity=" + rarity +
                 ", cardType=" + cardType +

@@ -21,14 +21,13 @@ public class CustomerService implements UserDetailsService {
 
     public void registration(Customer customer) {
         if (customer.getEmail().indexOf('@') == -1) {
-            throw new RuntimeException("Email invalide");
+            throw new RuntimeException("Invalid email address");
         }
 
         Optional<Customer> user = customerRepository.findByEmail(customer.getUsername());
         if (user.isPresent()) {
             throw new RuntimeException("Email déjà utilisé");
         }
-
 
         customer.setPassword(passwordEncoder.encode(customer.getPassword()));
 
@@ -38,7 +37,7 @@ public class CustomerService implements UserDetailsService {
 
         customer.setRole(role);
 
-        // FIXME
+        // FIXME : on pourrait passer par un mail d'activation ?
         customer.setEnabled(Boolean.TRUE);
 
         customerRepository.save(customer);
