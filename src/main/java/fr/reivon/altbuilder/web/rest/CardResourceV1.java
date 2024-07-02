@@ -28,24 +28,20 @@ public class CardResourceV1 {
     private final CardMapper cardMapper;
 
     private final TestServiceToDelete testServiceToDelete;
-    private final DeckMapper deckMapper;
-    private final DeckService deckService;
     private final AlteredConsumers alteredConsumers;
 
-    public CardResourceV1(CardService cardService, CardMapper cardMapper, TestServiceToDelete testServiceToDelete, DeckMapper deckMapper, DeckService deckService, AlteredConsumers alteredConsumers) {
+    public CardResourceV1(CardService cardService, CardMapper cardMapper, TestServiceToDelete testServiceToDelete, AlteredConsumers alteredConsumers) {
         this.cardService = cardService;
         this.cardMapper = cardMapper;
         this.testServiceToDelete = testServiceToDelete;
-        this.deckMapper = deckMapper;
-        this.deckService = deckService;
         this.alteredConsumers = alteredConsumers;
     }
 
     @GetMapping("/test")
     @ResponseBody
     public List<CardDto> saveTestDeck() throws SSLException {
-        //testServiceToDelete.initDB();
-        alteredConsumers.getAllCard();
+        testServiceToDelete.initDB();
+        //alteredConsumers.getAllCard();
         return cardMapper.cardToCardDto(cardService.getAll());
     }
 

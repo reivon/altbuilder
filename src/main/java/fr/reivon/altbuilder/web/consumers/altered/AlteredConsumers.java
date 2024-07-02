@@ -2,6 +2,7 @@ package fr.reivon.altbuilder.web.consumers.altered;
 
 
 import fr.reivon.altbuilder.config.ProjectConfiguration;
+import fr.reivon.altbuilder.service.CardService;
 import fr.reivon.altbuilder.web.consumers.altered.dto.ConsumerResponse;
 import io.netty.channel.ChannelOption;
 import io.netty.handler.ssl.SslContext;
@@ -26,9 +27,11 @@ import java.util.concurrent.TimeUnit;
 public class AlteredConsumers {
 
     ProjectConfiguration projectConfiguration;
+    CardService cardService;
 
-    public AlteredConsumers(ProjectConfiguration projectConfiguration) {
+    public AlteredConsumers(ProjectConfiguration projectConfiguration, CardService cardService) {
         this.projectConfiguration = projectConfiguration;
+        this.cardService = cardService;
     }
 
     public void getAllCard() throws SSLException {
@@ -63,10 +66,9 @@ public class AlteredConsumers {
 
         consumerCardFlux.subscribe(cards -> {
             log.info("consumer card: {}", cards);
+            cardService.saveOrUpdate(cards.cards());
         });
 
     }
-
-
 
 }
