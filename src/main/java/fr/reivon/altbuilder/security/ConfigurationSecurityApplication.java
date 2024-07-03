@@ -35,6 +35,7 @@ public class ConfigurationSecurityApplication {
                 .authorizeHttpRequests(authorize -> authorize
                         .requestMatchers(HttpMethod.POST,"/v1/customer/registration").permitAll()
                         .requestMatchers(HttpMethod.POST, "/v1/customer/login").permitAll()
+                        .requestMatchers(HttpMethod.POST, "/v1/customer/refresh-token").permitAll()
                         .requestMatchers(HttpMethod.GET, "/v1/card/test").permitAll()
                         .anyRequest().authenticated())
                 .sessionManagement(httpSecuritySessionManagementConfigurer ->

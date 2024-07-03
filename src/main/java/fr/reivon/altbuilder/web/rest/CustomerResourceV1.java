@@ -36,11 +36,16 @@ public class CustomerResourceV1 {
         Authentication authenticate = authenticationManager.authenticate(
                 new UsernamePasswordAuthenticationToken(authenticationDto.username(), authenticationDto.password())
         );
-        log.info("Tentative d'authen, resultat : {}", authenticate.isAuthenticated());
+        log.info("Auth try, result : {}", authenticate.isAuthenticated());
         if (authenticate.isAuthenticated()) {
             return jwtService.generate(authenticationDto.username());
         }
         return null;
+    }
+
+    @PostMapping("/refresh-token")
+    public Map<String, String> refreshToken(@RequestBody Map<String, String> refreshTokenRequest) {
+        return jwtService.refreshToken(refreshTokenRequest);
     }
 
     @PostMapping("/logout")
@@ -48,7 +53,6 @@ public class CustomerResourceV1 {
         jwtService.logout();
     }
 
-    // TODO : manage a refresh token system : https://www.youtube.com/watch?v=KoBGERCIXag
     // TODO : manage an update password : https://www.youtube.com/watch?v=gFu0yoAlJDA
     // TODO : manage role and permission : https://www.youtube.com/watch?v=CHrwipNMiY4
 

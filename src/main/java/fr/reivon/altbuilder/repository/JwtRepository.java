@@ -12,5 +12,8 @@ public interface JwtRepository extends CrudRepository<Jwt, Long> {
     @Query("FROM Jwt j where j.expired = :expired AND j.disabled = :disabled AND j.customer.email = :customerEmail")
     Optional<Jwt> findCustomerValidToken(String customerEmail, boolean expired, boolean disabled);
 
+    @Query("FROM Jwt j where j.refreshTokenJwt.token = :token")
+    Optional<Jwt> findByRefreshTokenJwt(String token);
+
     void deleteAllByExpiredAndDisabled(boolean expired, boolean disabled);
 }

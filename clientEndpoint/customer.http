@@ -19,7 +19,24 @@ Content-Type: application/json
   "password": "toto"
 }
 
-> {% client.global.set("auth_token", response.body.bearer); %}
+> {%
+    client.global.set("auth_token", response.body.bearer);
+    client.global.set("refresh_token", response.body.refresh);
+%}
+
+
+### Refresh token
+POST http://localhost:8080/v1/customer/refresh-token
+Content-Type: application/json
+
+{
+  "refresh": "{{refresh_token}}"
+}
+
+> {%
+    client.global.set("auth_token", response.body.bearer);
+    client.global.set("refresh_token", response.body.refresh);
+%}
 
 
 ### Logout the current user
