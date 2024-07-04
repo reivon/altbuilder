@@ -33,11 +33,13 @@ public class ConfigurationSecurityApplication {
         return httpSecurity
                 .csrf(AbstractHttpConfigurer::disable)
                 .authorizeHttpRequests(authorize -> authorize
-                        .requestMatchers(HttpMethod.POST,"/v1/customer/registration").permitAll()
-                        .requestMatchers(HttpMethod.POST, "/v1/customer/login").permitAll()
-                        .requestMatchers(HttpMethod.POST, "/v1/customer/refresh-token").permitAll()
-                        .requestMatchers(HttpMethod.GET, "/v1/card/test").permitAll()
-                        .anyRequest().authenticated())
+                        // test purpose : permit all
+                        .anyRequest().permitAll())
+//                        .requestMatchers(HttpMethod.POST,"/v1/customer/registration").permitAll()
+//                        .requestMatchers(HttpMethod.POST, "/v1/customer/login").permitAll()
+//                        .requestMatchers(HttpMethod.POST, "/v1/customer/refresh-token").permitAll()
+//                        .requestMatchers(HttpMethod.GET, "/v1/card/test").permitAll()
+//                        .anyRequest().authenticated())
                 .sessionManagement(httpSecuritySessionManagementConfigurer ->
                         httpSecuritySessionManagementConfigurer.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
                 .addFilterBefore(jwtFilter, UsernamePasswordAuthenticationFilter.class)

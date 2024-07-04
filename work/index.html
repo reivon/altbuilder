@@ -6,11 +6,28 @@
     }
 </script>
 
+<style>
+    .rare {
+        background: aqua;
+    }
+</style>
+
 <!-- index.html -->
 <div id="app">
-    <button @click="count++">
-        Count is: {{ count }}
-    </button>
+
+    <h1>{{deck.name}}</h1>
+    <h2>{{deck.author.nickname}}</h2>
+
+    <div id="card-list">
+
+        <div v-for="card in deck.cards" :key="card.pk.card.id" :class="{ rare : card.pk.card.rarity == 'RARE'}">
+            {{ card.nbCard }} {{ card.pk.card.cardType }} {{ card.pk.card.nameVf }} -
+            {{ card.pk.card.costHand }} {{ card.pk.card.costReserve }} -
+            {{ card.pk.card.forestPower }} {{ card.pk.card.mountainPower }} {{ card.pk.card.waterPower }}
+        </div>
+
+    </div>
+
 </div>
 
 <script type="module">

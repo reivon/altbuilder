@@ -17,8 +17,7 @@ import java.util.List;
 @Jacksonized
 public class CardDto {
 
-    Long id;
-    String alteredId;
+    String id;
     Faction faction;
     Rarity rarity;
     CardType cardType;
