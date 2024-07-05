@@ -1,4 +1,4 @@
-package fr.reivon.altbuilder.web.rest.mapper;
+package fr.reivon.altbuilder.web.rest.mapper.deck;
 
 import fr.reivon.altbuilder.domain.deck.Deck;
 import fr.reivon.altbuilder.web.rest.dto.deck.DeckDto;

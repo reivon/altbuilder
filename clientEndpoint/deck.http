@@ -1,7 +1,6 @@
 
 ### get the second deck
-GET http://localhost:8080/v1/deck/2
-Authorization: Bearer {{auth_token}}
+GET http://localhost:8080/v1/deck/1
 Accept: application/json
 
 ### get a deck which doesn't exist (404)

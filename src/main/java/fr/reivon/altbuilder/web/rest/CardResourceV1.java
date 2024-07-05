@@ -1,13 +1,10 @@
 package fr.reivon.altbuilder.web.rest;
 
 import fr.reivon.altbuilder.service.CardService;
-import fr.reivon.altbuilder.service.DeckService;
 import fr.reivon.altbuilder.service.TestServiceToDelete;
 import fr.reivon.altbuilder.web.consumers.altered.AlteredConsumers;
 import fr.reivon.altbuilder.web.rest.dto.card.CardDto;
-import fr.reivon.altbuilder.web.rest.dto.deck.DeckDto;
 import fr.reivon.altbuilder.web.rest.mapper.CardMapper;
-import fr.reivon.altbuilder.web.rest.mapper.DeckMapper;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.GetMapping;
